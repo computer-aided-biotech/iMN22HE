@@ -13307,7 +13307,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_2inst[e]
+      - bigg.reaction: EX_2inst_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_35cgmp[e]
@@ -13318,7 +13318,21 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_35cgmp[e]
+      - bigg.reaction:
+        - 35CGMPtn
+        - EX_35cgmp_e
+        - HMR_8084
+        - R_35CGMPtn
+        - R_EX_35cgmp_e
+        - R_HMR_8084
+      - biggR:
+        - 35CGMPtn
+        - EX_35cgmp_e
+        - HMR_8084
+        - R_35CGMPtn
+        - R_EX_35cgmp_e
+        - R_HMR_8084
+      - metanetx.reaction: MNXR94849
       - sbo: SBO:0000627
   - !!omap
     - id: EX_3HB[e]
@@ -13329,7 +13343,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_3HB[e]
+      - bigg.reaction: EX_3HB_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_4hphac[e]
@@ -13340,7 +13354,31 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_4hphac[e]
+      - bigg.reaction:
+        - EX_4hphac_e
+        - HPACtr
+        - HPAtex
+        - R_EX_4hphac_e
+        - R_HPACtr
+        - R_HPAtex
+      - biggR:
+        - EX_4hphac_e
+        - HPACtr
+        - HPAtex
+        - R_EX_4hphac_e
+        - R_HPACtr
+        - R_HPAtex
+      - metanetx.reaction: MNXR95054
+      - rhea:
+        - '33175'
+        - '33176'
+        - '33177'
+        - '33178'
+      - rheaR:
+        - '33175'
+        - '33176'
+        - '33177'
+        - '33178'
       - sbo: SBO:0000627
   - !!omap
     - id: EX_Zn[e]
@@ -13351,7 +13389,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_Zn[e]
+      - bigg.reaction: EX_Zn_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_ac[e]
@@ -13362,8 +13400,74 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_ac[e]
+      - bigg.reaction:
+        - ACtex
+        - ACtg
+        - ACth
+        - ACtm
+        - ACtp
+        - ACtr
+        - ACts
+        - DM_ac_c
+        - EX_ac_e
+        - R_ACtex
+        - R_ACtg
+        - R_ACth
+        - R_ACtm
+        - R_ACtp
+        - R_ACtr
+        - R_ACts
+        - R_DM_ac_c
+        - R_EX_ac_e
+      - biggR:
+        - ACtex
+        - ACtg
+        - ACth
+        - ACtm
+        - ACtp
+        - ACtr
+        - ACts
+        - DM_ac_c
+        - EX_ac_e
+        - R_ACtex
+        - R_ACtg
+        - R_ACth
+        - R_ACtm
+        - R_ACtp
+        - R_ACtr
+        - R_ACts
+        - R_DM_ac_c
+        - R_EX_ac_e
+      - metacyc.reaction: TRANS-RXN-455
+      - metacycR: TRANS-RXN-455
+      - metanetx.reaction: MNXR152867
+      - rhea:
+        - '27814'
+        - '27815'
+        - '27816'
+        - '27817'
+      - rheaR:
+        - '27814'
+        - '27815'
+        - '27816'
+        - '27817'
+      - sabiork.reaction: '12184'
+      - sabiorkR: '12184'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08063
+        - rxn09787
+        - rxn09866
+        - rxn10904
+        - rxn28609
+        - rxn31359
+      - seedR:
+        - rxn08063
+        - rxn09787
+        - rxn09866
+        - rxn10904
+        - rxn28609
+        - rxn31359
   - !!omap
     - id: EX_acald[e]
     - name: Acetaldehyde exchange
@@ -13373,8 +13477,50 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_acald[e]
+      - bigg.reaction:
+        - ACALDt
+        - ACALDtex
+        - ACALDtm
+        - ACALDtpp
+        - ACALDtr
+        - ACALDtx
+        - EX_acald_e
+        - R_ACALDt
+        - R_ACALDtex
+        - R_ACALDtm
+        - R_ACALDtpp
+        - R_ACALDtr
+        - R_ACALDtx
+        - R_EX_acald_e
+      - biggR:
+        - ACALDt
+        - ACALDtex
+        - ACALDtm
+        - ACALDtpp
+        - ACALDtr
+        - ACALDtx
+        - EX_acald_e
+        - R_ACALDt
+        - R_ACALDtex
+        - R_ACALDtm
+        - R_ACALDtpp
+        - R_ACALDtr
+        - R_ACALDtx
+        - R_EX_acald_e
+      - metanetx.reaction: MNXR95212
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08032
+        - rxn08033
+        - rxn09700
+        - rxn13212
+        - rxn34463
+      - seedR:
+        - rxn08032
+        - rxn08033
+        - rxn09700
+        - rxn13212
+        - rxn34463
   - !!omap
     - id: EX_acglu[e]
     - name: N-Acetyl-L-Glutamate
@@ -13384,7 +13530,21 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_acglu[e]
+      - bigg.reaction:
+        - ACGLUtd
+        - ACGLUtm
+        - EX_acglu_e
+        - R_ACGLUtd
+        - R_ACGLUtm
+        - R_EX_acglu_e
+      - biggR:
+        - ACGLUtd
+        - ACGLUtm
+        - EX_acglu_e
+        - R_ACGLUtd
+        - R_ACGLUtm
+        - R_EX_acglu_e
+      - metanetx.reaction: MNXR154195
       - sbo: SBO:0000627
   - !!omap
     - id: EX_acmana[e]
@@ -13395,8 +13555,24 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_acmana[e]
+      - bigg.reaction:
+        - ACMANAtex
+        - EX_acmana_e
+        - R_ACMANAtex
+        - R_EX_acmana_e
+        - R_r0968
+        - r0968
+      - biggR:
+        - ACMANAtex
+        - EX_acmana_e
+        - R_ACMANAtex
+        - R_EX_acmana_e
+        - R_r0968
+        - r0968
+      - metanetx.reaction: MNXR190539
       - sbo: SBO:0000627
+      - seed.reaction: rxn08047
+      - seedR: rxn08047
   - !!omap
     - id: EX_actn-R[e]
     - name: (R)-Acetoin exchange
@@ -13406,7 +13582,21 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_actn-R[e]
+      - bigg.reaction:
+        - ACTNdiff
+        - ACTNtex
+        - EX_actn__R_e
+        - R_ACTNdiff
+        - R_ACTNtex
+        - R_EX_actn__R_e
+      - biggR:
+        - ACTNdiff
+        - ACTNtex
+        - EX_actn__R_e
+        - R_ACTNdiff
+        - R_ACTNtex
+        - R_EX_actn__R_e
+      - metanetx.reaction: MNXR142915
       - sbo: SBO:0000627
   - !!omap
     - id: EX_ala-L[e]
@@ -13417,8 +13607,56 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_ala-L[e]
+      - bigg.reaction:
+        - ALAPAT4te
+        - ALAtex
+        - ALAtmi
+        - ALAtpp
+        - EX_ala__L_e
+        - HMR_4790
+        - R_ALAPAT4te
+        - R_ALAtex
+        - R_ALAtmi
+        - R_ALAtpp
+        - R_EX_ala__L_e
+        - R_HMR_4790
+        - R_SK_ala__L_c
+        - SK_ala__L_c
+      - biggR:
+        - ALAPAT4te
+        - ALAtex
+        - ALAtmi
+        - ALAtpp
+        - EX_ala__L_e
+        - HMR_4790
+        - R_ALAPAT4te
+        - R_ALAtex
+        - R_ALAtmi
+        - R_ALAtpp
+        - R_EX_ala__L_e
+        - R_HMR_4790
+        - R_SK_ala__L_c
+        - SK_ala__L_c
+      - metacyc.reaction: TRANS-RXN-399
+      - metacycR: TRANS-RXN-399
+      - metanetx.reaction: MNXR95706
+      - sabiork.reaction: '10375'
+      - sabiorkR: '10375'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08104
+        - rxn10921
+        - rxn13221
+        - rxn29212
+        - rxn31555
+        - rxn33671
+      - seedR:
+        - rxn08104
+        - rxn10921
+        - rxn13221
+        - rxn29212
+        - rxn31555
+        - rxn33671
   - !!omap
     - id: EX_alac-S[e]
     - name: (S)-2-Acetolactate exchange
@@ -13428,8 +13666,24 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_alac-S[e]
+      - bigg.reaction:
+        - EX_alac__S_e
+        - R_EX_alac__S_e
+      - biggR:
+        - EX_alac__S_e
+        - R_EX_alac__S_e
+      - metanetx.reaction: MNXR189523
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn11320
+        - rxn13114
+        - rxn32510
+        - rxn32770
+      - seedR:
+        - rxn11320
+        - rxn13114
+        - rxn32510
+        - rxn32770
   - !!omap
     - id: EX_amob[e]
     - name: S-Adenosyl-4-methylthio-2-oxobutanoate exchange
@@ -13439,7 +13693,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_amob[e]
+      - bigg.reaction: EX_amob_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_btamp[e]
@@ -13450,7 +13704,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_btamp[e]
+      - bigg.reaction: EX_btamp_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_btn[e]
@@ -13461,8 +13715,68 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_btn[e]
+      - bigg.reaction:
+        - BIOTINt_c
+        - BIOTINt_h
+        - BTNTe
+        - BTNtex
+        - BTNtn
+        - DM_btn_m
+        - DM_btn_n
+        - EX_btn_e
+        - R_BIOTINt_c
+        - R_BIOTINt_h
+        - R_BTNTe
+        - R_BTNtex
+        - R_BTNtn
+        - R_DM_btn_m
+        - R_DM_btn_n
+        - R_EX_btn_e
+        - R_SK_btn_c
+        - SK_btn_c
+      - biggR:
+        - BIOTINt_c
+        - BIOTINt_h
+        - BTNTe
+        - BTNtex
+        - BTNtn
+        - DM_btn_m
+        - DM_btn_n
+        - EX_btn_e
+        - R_BIOTINt_c
+        - R_BIOTINt_h
+        - R_BTNTe
+        - R_BTNtex
+        - R_BTNtn
+        - R_DM_btn_m
+        - R_DM_btn_n
+        - R_EX_btn_e
+        - R_SK_btn_c
+        - SK_btn_c
+      - metacyc.reaction: TRANS-RXN0-240
+      - metacycR: TRANS-RXN0-240
+      - metanetx.reaction: MNXR96333
+      - rhea:
+        - '28458'
+        - '28459'
+        - '28460'
+        - '28461'
+      - rheaR:
+        - '28458'
+        - '28459'
+        - '28460'
+        - '28461'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn29122
+        - rxn38791
+        - rxn38792
+        - rxn38793
+      - seedR:
+        - rxn29122
+        - rxn38791
+        - rxn38792
+        - rxn38793
   - !!omap
     - id: EX_calcium[e]
     - name: calcium exchange
@@ -13472,7 +13786,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_calcium[e]
+      - bigg.reaction: EX_calcium_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_camp[e]
@@ -13483,8 +13797,22 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_camp[e]
+      - bigg.reaction:
+        - EX_camp_e
+        - HMR_8086
+        - R_EX_camp_e
+        - R_HMR_8086
+      - biggR:
+        - EX_camp_e
+        - HMR_8086
+        - R_EX_camp_e
+        - R_HMR_8086
+      - metacyc.reaction: TRANS-RXN0-564
+      - metacycR: TRANS-RXN0-564
+      - metanetx.reaction: MNXR124056
       - sbo: SBO:0000627
+      - seed.reaction: rxn29322
+      - seedR: rxn29322
   - !!omap
     - id: EX_cbi[e]
     - name: Cobinamide exchange
@@ -13494,8 +13822,30 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_cbi[e]
+      - bigg.reaction:
+        - EX_cbi_e
+        - R_EX_cbi_e
+      - biggR:
+        - EX_cbi_e
+        - R_EX_cbi_e
+      - metanetx.reaction: MNXR124011
+      - rhea:
+        - '29695'
+        - '29696'
+        - '29697'
+        - '29698'
+      - rheaR:
+        - '29695'
+        - '29696'
+        - '29697'
+        - '29698'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn29150
+        - rxn29151
+      - seedR:
+        - rxn29150
+        - rxn29151
   - !!omap
     - id: EX_cbl1[e]
     - name: Cob(I)alamin exchange
@@ -13505,8 +13855,30 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_cbl1[e]
+      - bigg.reaction:
+        - EX_cbl1_e
+        - R_EX_cbl1_e
+      - biggR:
+        - EX_cbl1_e
+        - R_EX_cbl1_e
+      - metanetx.reaction: MNXR189337
+      - rhea:
+        - '29719'
+        - '29720'
+        - '29721'
+        - '29722'
+      - rheaR:
+        - '29719'
+        - '29720'
+        - '29721'
+        - '29722'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn28561
+        - rxn28562
+      - seedR:
+        - rxn28561
+        - rxn28562
   - !!omap
     - id: EX_cbl1hbi[e]
     - name: Cob(I)alamin-HBI exchange
@@ -13516,7 +13888,13 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_cbl1hbi[e]
+      - bigg.reaction:
+        - EX_cbl1hbi_e
+        - R_EX_cbl1hbi_e
+      - biggR:
+        - EX_cbl1hbi_e
+        - R_EX_cbl1hbi_e
+      - metanetx.reaction: MNXR142934
       - sbo: SBO:0000627
   - !!omap
     - id: EX_cd2[e]
@@ -13527,8 +13905,44 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_cd2[e]
+      - bigg.reaction:
+        - CD2tex
+        - CD2tpp
+        - EX_cd2_e
+        - R_CD2tex
+        - R_CD2tpp
+        - R_EX_cd2_e
+      - biggR:
+        - CD2tex
+        - CD2tpp
+        - EX_cd2_e
+        - R_CD2tex
+        - R_CD2tpp
+        - R_EX_cd2_e
+      - metacyc.reaction: RXN0-10
+      - metacycR: RXN0-10
+      - metanetx.reaction: MNXR96499
+      - rhea:
+        - '28707'
+        - '28708'
+        - '28709'
+        - '28710'
+      - rheaR:
+        - '28707'
+        - '28708'
+        - '28709'
+        - '28710'
+      - sabiork.reaction: '13041'
+      - sabiorkR: '13041'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08197
+        - rxn08198
+        - rxn29670
+      - seedR:
+        - rxn08197
+        - rxn08198
+        - rxn29670
   - !!omap
     - id: EX_ch4[e]
     - name: methane exchange
@@ -13538,7 +13952,25 @@
     - upper_bound: 0.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_ch4[e]
+      - bigg.reaction:
+        - CH4t
+        - CH4t2pp
+        - CH4tex
+        - EX_ch4_e
+        - R_CH4t
+        - R_CH4t2pp
+        - R_CH4tex
+        - R_EX_ch4_e
+      - biggR:
+        - CH4t
+        - CH4t2pp
+        - CH4tex
+        - EX_ch4_e
+        - R_CH4t
+        - R_CH4t2pp
+        - R_CH4tex
+        - R_EX_ch4_e
+      - metanetx.reaction: MNXR153183
       - sbo: SBO:0000627
   - !!omap
     - id: EX_ch4s[e]
@@ -13549,8 +13981,24 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_ch4s[e]
+      - bigg.reaction:
+        - CH4St
+        - EX_ch4s_e
+        - R_CH4St
+        - R_EX_ch4s_e
+      - biggR:
+        - CH4St
+        - EX_ch4s_e
+        - R_CH4St
+        - R_EX_ch4s_e
+      - metanetx.reaction: MNXR96663
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn10470
+        - rxn32480
+      - seedR:
+        - rxn10470
+        - rxn32480
   - !!omap
     - id: EX_chloride
     - name: chloride exchange
@@ -13571,8 +14019,54 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_cit[e]
+      - bigg.reaction:
+        - CITtex
+        - CITtupp
+        - CITx
+        - EX_cit_e
+        - HMR_4957
+        - R_CITtex
+        - R_CITtupp
+        - R_CITx
+        - R_EX_cit_e
+        - R_HMR_4957
+      - biggR:
+        - CITtex
+        - CITtupp
+        - CITx
+        - EX_cit_e
+        - HMR_4957
+        - R_CITtex
+        - R_CITtupp
+        - R_CITx
+        - R_EX_cit_e
+        - R_HMR_4957
+      - metanetx.reaction: MNXR96756
+      - rhea:
+        - '33183'
+        - '33184'
+        - '33185'
+        - '33186'
+      - rheaR:
+        - '33183'
+        - '33184'
+        - '33185'
+        - '33186'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08217
+        - rxn10946
+        - rxn30640
+        - rxn31187
+        - rxn31198
+        - rxn34202
+      - seedR:
+        - rxn08217
+        - rxn10946
+        - rxn30640
+        - rxn31187
+        - rxn31198
+        - rxn34202
   - !!omap
     - id: EX_co2[e]
     - name: CO2 exchange
@@ -13582,8 +14076,78 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_co2[e]
+      - bigg.reaction:
+        - CO2t
+        - CO2ter
+        - CO2tex
+        - CO2tg
+        - CO2th
+        - CO2tm
+        - CO2tn
+        - CO2tp
+        - CO2tpp
+        - CO2tv
+        - EX_co2_e
+        - R_CO2t
+        - R_CO2ter
+        - R_CO2tex
+        - R_CO2tg
+        - R_CO2th
+        - R_CO2tm
+        - R_CO2tn
+        - R_CO2tp
+        - R_CO2tpp
+        - R_CO2tv
+        - R_EX_co2_e
+      - biggR:
+        - CO2t
+        - CO2ter
+        - CO2tex
+        - CO2tg
+        - CO2th
+        - CO2tm
+        - CO2tn
+        - CO2tp
+        - CO2tpp
+        - CO2tv
+        - EX_co2_e
+        - R_CO2t
+        - R_CO2ter
+        - R_CO2tex
+        - R_CO2tg
+        - R_CO2th
+        - R_CO2tm
+        - R_CO2tn
+        - R_CO2tp
+        - R_CO2tpp
+        - R_CO2tv
+        - R_EX_co2_e
+      - metacyc.reaction: TRANS-RXN0-545
+      - metacycR: TRANS-RXN0-545
+      - metanetx.reaction: MNXR96810
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05467
+        - rxn08237
+        - rxn08238
+        - rxn09706
+        - rxn09775
+        - rxn09821
+        - rxn09860
+        - rxn09876
+        - rxn31163
+        - rxn33396
+      - seedR:
+        - rxn05467
+        - rxn08237
+        - rxn08238
+        - rxn09706
+        - rxn09775
+        - rxn09821
+        - rxn09860
+        - rxn09876
+        - rxn31163
+        - rxn33396
   - !!omap
     - id: EX_co[e]
     - name: Carbon monoxide exchange
@@ -13593,7 +14157,35 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_co[e]
+      - bigg.reaction:
+        - COt
+        - COt_1
+        - COt_c
+        - Cotpp
+        - DM_co_c
+        - EX_co_e
+        - R_COt
+        - R_COt_1
+        - R_COt_c
+        - R_Cotpp
+        - R_DM_co_c
+        - R_EX_co_e
+      - biggR:
+        - COt
+        - COt_1
+        - COt_c
+        - Cotpp
+        - DM_co_c
+        - EX_co_e
+        - R_COt
+        - R_COt_1
+        - R_COt_c
+        - R_Cotpp
+        - R_DM_co_c
+        - R_EX_co_e
+      - metacyc.reaction: TRANS-RXN0-556
+      - metacycR: TRANS-RXN0-556
+      - metanetx.reaction: MNXR153251
       - sbo: SBO:0000627
   - !!omap
     - id: EX_cobalt[e]
@@ -13604,7 +14196,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_cobalt[e]
+      - bigg.reaction: EX_cobalt_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_copper[e]
@@ -13615,7 +14207,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_copper[e]
+      - bigg.reaction: EX_copper_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_cys-L[e]
@@ -13626,8 +14218,64 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_cys-L[e]
+      - bigg.reaction:
+        - CYStec
+        - CYStex
+        - CYSth
+        - CYStpp
+        - EX_cys__L_e
+        - R_CYStec
+        - R_CYStex
+        - R_CYSth
+        - R_CYStpp
+        - R_EX_cys__L_e
+        - R_SK_cys__L_c
+        - R_r1437
+        - SK_cys__L_c
+        - r1437
+      - biggR:
+        - CYStec
+        - CYStex
+        - CYSth
+        - CYStpp
+        - EX_cys__L_e
+        - R_CYStec
+        - R_CYStex
+        - R_CYSth
+        - R_CYStpp
+        - R_EX_cys__L_e
+        - R_SK_cys__L_c
+        - R_r1437
+        - SK_cys__L_c
+        - r1437
+      - metacyc.reaction: RXN0-1924
+      - metacycR: RXN0-1924
+      - metanetx.reaction: MNXR97029
+      - rhea:
+        - '29655'
+        - '29656'
+        - '29657'
+        - '29658'
+      - rheaR:
+        - '29655'
+        - '29656'
+        - '29657'
+        - '29658'
+      - sabiork.reaction: '13465'
+      - sabiorkR: '13465'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08284
+        - rxn08286
+        - rxn10998
+        - rxn32728
+        - rxn34361
+      - seedR:
+        - rxn08284
+        - rxn08286
+        - rxn10998
+        - rxn32728
+        - rxn34361
   - !!omap
     - id: EX_dad-2[e]
     - name: Deoxyadenosine exchange
@@ -13637,7 +14285,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_dad-2[e]
+      - bigg.reaction: EX_dad-2_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_dad-5[e]
@@ -13648,7 +14296,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_dad-5[e]
+      - bigg.reaction: EX_dad-5_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_dcyt[e]
@@ -13659,8 +14307,36 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_dcyt[e]
+      - bigg.reaction:
+        - DCYTt
+        - DCYTtex
+        - DCYTtm
+        - EX_dcyt_e
+        - HMR_8476
+        - R_DCYTt
+        - R_DCYTtex
+        - R_DCYTtm
+        - R_EX_dcyt_e
+        - R_HMR_8476
+      - biggR:
+        - DCYTt
+        - DCYTtex
+        - DCYTtm
+        - EX_dcyt_e
+        - HMR_8476
+        - R_DCYTt
+        - R_DCYTtex
+        - R_DCYTtm
+        - R_EX_dcyt_e
+        - R_HMR_8476
+      - metanetx.reaction: MNXR97208
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08317
+        - rxn11014
+      - seedR:
+        - rxn08317
+        - rxn11014
   - !!omap
     - id: EX_dehydroalanine[e]
     - name: dehydroalanine exchange
@@ -13670,7 +14346,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_dehydroalanine[e]
+      - bigg.reaction: EX_dehydroalanine_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_dha[e]
@@ -13681,8 +14357,36 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_dha[e]
+      - bigg.reaction:
+        - DHAt
+        - DHAtex
+        - DHAtpp
+        - EX_dha_e
+        - R_DHAt
+        - R_DHAtex
+        - R_DHAtpp
+        - R_EX_dha_e
+      - biggR:
+        - DHAt
+        - DHAtex
+        - DHAtpp
+        - EX_dha_e
+        - R_DHAt
+        - R_DHAtex
+        - R_DHAtpp
+        - R_EX_dha_e
+      - metacyc.reaction: TRANS-RXN0-559
+      - metacycR: TRANS-RXN0-559
+      - metanetx.reaction: MNXR97367
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05532
+        - rxn08325
+        - rxn08326
+      - seedR:
+        - rxn05532
+        - rxn08325
+        - rxn08326
   - !!omap
     - id: EX_didp[e]
     - name: dIDP exchange
@@ -13692,7 +14396,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_didp[e]
+      - bigg.reaction: EX_didp_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_dtdprmn[e]
@@ -13703,7 +14407,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_dtdprmn[e]
+      - bigg.reaction: EX_dtdprmn_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_duri[e]
@@ -13714,8 +14418,32 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_duri[e]
+      - bigg.reaction:
+        - DURIt
+        - DURItex
+        - DURItn
+        - EX_duri_e
+        - R_DURIt
+        - R_DURItex
+        - R_DURItn
+        - R_EX_duri_e
+      - biggR:
+        - DURIt
+        - DURItex
+        - DURItn
+        - EX_duri_e
+        - R_DURIt
+        - R_DURItex
+        - R_DURItn
+        - R_EX_duri_e
+      - metanetx.reaction: MNXR97819
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08377
+        - rxn10984
+      - seedR:
+        - rxn08377
+        - rxn10984
   - !!omap
     - id: EX_etoh[e]
     - name: Ethanol exchage
@@ -13725,8 +14453,62 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_etoh[e]
+      - bigg.reaction:
+        - ETOHt
+        - ETOHtex
+        - ETOHth
+        - ETOHtm
+        - ETOHtrpp
+        - ETOHtx
+        - EX_etoh_e
+        - R_ETOHt
+        - R_ETOHtex
+        - R_ETOHth
+        - R_ETOHtm
+        - R_ETOHtrpp
+        - R_ETOHtx
+        - R_EX_etoh_e
+      - biggR:
+        - ETOHt
+        - ETOHtex
+        - ETOHth
+        - ETOHtm
+        - ETOHtrpp
+        - ETOHtx
+        - EX_etoh_e
+        - R_ETOHt
+        - R_ETOHtex
+        - R_ETOHth
+        - R_ETOHtm
+        - R_ETOHtrpp
+        - R_ETOHtx
+        - R_EX_etoh_e
+      - metacyc.reaction: TRANS-RXN0-546
+      - metacycR: TRANS-RXN0-546
+      - metanetx.reaction: MNXR97980
+      - rhea:
+        - '35267'
+        - '35268'
+        - '35269'
+        - '35270'
+      - rheaR:
+        - '35267'
+        - '35268'
+        - '35269'
+        - '35270'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08428
+        - rxn09683
+        - rxn09764
+        - rxn33481
+        - rxn34210
+      - seedR:
+        - rxn08428
+        - rxn09683
+        - rxn09764
+        - rxn33481
+        - rxn34210
   - !!omap
     - id: EX_fcd[e]
     - name: Flavin cytosine dinucleotide oxidized exchange
@@ -13736,7 +14518,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_fcd[e]
+      - bigg.reaction: EX_fcd_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_fe2[e]
@@ -13747,8 +14529,70 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_fe2[e]
+      - bigg.reaction:
+        - EX_fe2_e
+        - FE2t
+        - FE2tex
+        - FE2th
+        - FE2tpp
+        - FE2utm
+        - FEtm
+        - R_EX_fe2_e
+        - R_FE2t
+        - R_FE2tex
+        - R_FE2th
+        - R_FE2tpp
+        - R_FE2utm
+        - R_FEtm
+      - biggR:
+        - EX_fe2_e
+        - FE2t
+        - FE2tex
+        - FE2th
+        - FE2tpp
+        - FE2utm
+        - FEtm
+        - R_EX_fe2_e
+        - R_FE2t
+        - R_FE2tex
+        - R_FE2th
+        - R_FE2tpp
+        - R_FE2utm
+        - R_FEtm
+      - metacyc.reaction:
+        - TRANS-RXN-171
+        - TRANS-RXN-8
+      - metacycR:
+        - TRANS-RXN-171
+        - TRANS-RXN-8
+      - metanetx.reaction: MNXR99505
+      - rhea:
+        - '28486'
+        - '28487'
+        - '28488'
+        - '28489'
+      - rheaR:
+        - '28486'
+        - '28487'
+        - '28488'
+        - '28489'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08475
+        - rxn08476
+        - rxn10963
+        - rxn13286
+        - rxn25583
+        - rxn33142
+        - rxn34369
+      - seedR:
+        - rxn08475
+        - rxn08476
+        - rxn10963
+        - rxn13286
+        - rxn25583
+        - rxn33142
+        - rxn34369
   - !!omap
     - id: EX_fe3[e]
     - name: Fe3+ exchange
@@ -13758,8 +14602,48 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_fe3[e]
+      - bigg.reaction:
+        - EX_fe3_e
+        - FE3t
+        - FE3tex
+        - R_EX_fe3_e
+        - R_FE3t
+        - R_FE3tex
+        - R_SK_fe3_c
+        - SK_fe3_c
+      - biggR:
+        - EX_fe3_e
+        - FE3t
+        - FE3tex
+        - R_EX_fe3_e
+        - R_FE3t
+        - R_FE3tex
+        - R_SK_fe3_c
+        - SK_fe3_c
+      - metanetx.reaction: MNXR99522
+      - rhea:
+        - '34971'
+        - '34972'
+        - '34973'
+        - '34974'
+      - rheaR:
+        - '34971'
+        - '34972'
+        - '34973'
+        - '34974'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05292
+        - rxn08492
+        - rxn32007
+        - rxn32009
+        - rxn38754
+      - seedR:
+        - rxn05292
+        - rxn08492
+        - rxn32007
+        - rxn32009
+        - rxn38754
   - !!omap
     - id: EX_fgd[e]
     - name: Flavin guanosine dinucleotide oxidized exchange
@@ -13769,7 +14653,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_fgd[e]
+      - bigg.reaction: EX_fgd_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_fol[e]
@@ -13780,8 +14664,36 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_fol[e]
+      - bigg.reaction:
+        - DM_fol_c
+        - EX_fol_e
+        - R_DM_fol_c
+        - R_EX_fol_e
+        - R_r0962
+        - R_r0963
+        - r0962
+        - r0963
+      - biggR:
+        - DM_fol_c
+        - EX_fol_e
+        - R_DM_fol_c
+        - R_EX_fol_e
+        - R_r0962
+        - R_r0963
+        - r0962
+        - r0963
+      - metanetx.reaction: MNXR146809
+      - sabiork.reaction: '14118'
+      - sabiorkR: '14118'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn29888
+        - rxn38796
+        - rxn38798
+      - seedR:
+        - rxn29888
+        - rxn38796
+        - rxn38798
   - !!omap
     - id: EX_for[e]
     - name: Formate exchange
@@ -13791,8 +14703,72 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_for[e]
+      - bigg.reaction:
+        - EX_for_e
+        - FORt
+        - FORt_c
+        - FORtex
+        - FORtm
+        - FORtppi
+        - FORtr
+        - FORtrn
+        - R_EX_for_e
+        - R_FORt
+        - R_FORt_c
+        - R_FORtex
+        - R_FORtm
+        - R_FORtppi
+        - R_FORtr
+        - R_FORtrn
+        - R_SK_for_c
+        - SK_for_c
+      - biggR:
+        - EX_for_e
+        - FORt
+        - FORt_c
+        - FORtex
+        - FORtm
+        - FORtppi
+        - FORtr
+        - FORtrn
+        - R_EX_for_e
+        - R_FORt
+        - R_FORt_c
+        - R_FORtex
+        - R_FORtm
+        - R_FORtppi
+        - R_FORtr
+        - R_FORtrn
+        - R_SK_for_c
+        - SK_for_c
+      - metacyc.reaction: TRANS-RXN-1
+      - metacycR: TRANS-RXN-1
+      - metanetx.reaction: MNXR99620
+      - rhea:
+        - '29679'
+        - '29680'
+        - '29681'
+        - '29682'
+      - rheaR:
+        - '29679'
+        - '29680'
+        - '29681'
+        - '29682'
+      - sabiork.reaction: '12483'
+      - sabiorkR: '12483'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08525
+        - rxn08526
+        - rxn09682
+        - rxn09754
+        - rxn34095
+      - seedR:
+        - rxn08525
+        - rxn08526
+        - rxn09682
+        - rxn09754
+        - rxn34095
   - !!omap
     - id: EX_frmd[e]
     - name: Formamide exchange
@@ -13802,8 +14778,28 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_frmd[e]
+      - bigg.reaction:
+        - EX_frmd_e
+        - FOAMtex
+        - FOAMtrpp
+        - R_EX_frmd_e
+        - R_FOAMtex
+        - R_FOAMtrpp
+      - biggR:
+        - EX_frmd_e
+        - FOAMtex
+        - FOAMtrpp
+        - R_EX_frmd_e
+        - R_FOAMtex
+        - R_FOAMtrpp
+      - metanetx.reaction: MNXR99611
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn13708
+        - rxn33301
+      - seedR:
+        - rxn13708
+        - rxn33301
   - !!omap
     - id: EX_gcald[e]
     - name: Glycolaldehyde exchange
@@ -13813,8 +14809,34 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_gcald[e]
+      - bigg.reaction:
+        - EX_gcald_e
+        - GCALDt
+        - GCALDtm
+        - R_EX_gcald_e
+        - R_GCALDt
+        - R_GCALDtm
+        - R_SK_gcald_c
+        - SK_gcald_c
+      - biggR:
+        - EX_gcald_e
+        - GCALDt
+        - GCALDtm
+        - R_EX_gcald_e
+        - R_GCALDt
+        - R_GCALDtm
+        - R_SK_gcald_c
+        - SK_gcald_c
+      - metanetx.reaction: MNXR100061
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09680
+        - rxn09752
+        - rxn38746
+      - seedR:
+        - rxn09680
+        - rxn09752
+        - rxn38746
   - !!omap
     - id: EX_gdpfuc[e]
     - name: GDP-L-fucose exchange
@@ -13824,7 +14846,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_gdpfuc[e]
+      - bigg.reaction: EX_gdpfuc_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_glu-L[e]
@@ -13835,8 +14857,72 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_glu-L[e]
+      - bigg.reaction:
+        - EX_glu__L_e
+        - GLUt3
+        - GLUt7l
+        - GLUt7m
+        - GLUtc
+        - GLUtex
+        - GLUtr
+        - R_EX_glu__L_e
+        - R_GLUt3
+        - R_GLUt7l
+        - R_GLUt7m
+        - R_GLUtc
+        - R_GLUtex
+        - R_GLUtr
+        - R_SK_glu__L_c
+        - SK_glu__L_c
+      - biggR:
+        - EX_glu__L_e
+        - GLUt3
+        - GLUt7l
+        - GLUt7m
+        - GLUtc
+        - GLUtex
+        - GLUtr
+        - R_EX_glu__L_e
+        - R_GLUt3
+        - R_GLUt7l
+        - R_GLUt7m
+        - R_GLUtc
+        - R_GLUtex
+        - R_GLUtr
+        - R_SK_glu__L_c
+        - SK_glu__L_c
+      - metacyc.reaction:
+        - TRANS-RXN-232
+        - TRANS-RXN-234
+      - metacycR:
+        - TRANS-RXN-232
+        - TRANS-RXN-234
+      - metanetx.reaction: MNXR145089
+      - rhea:
+        - '66336'
+        - '66337'
+        - '66338'
+        - '66339'
+      - rheaR:
+        - '66336'
+        - '66337'
+        - '66338'
+        - '66339'
+      - sabiork.reaction: '12283'
+      - sabiorkR: '12283'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08633
+        - rxn10917
+        - rxn13304
+        - rxn29088
+        - rxn31191
+      - seedR:
+        - rxn08633
+        - rxn10917
+        - rxn13304
+        - rxn29088
+        - rxn31191
   - !!omap
     - id: EX_gly[e]
     - name: Glycine exchange
@@ -13846,8 +14932,60 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_gly[e]
+      - bigg.reaction:
+        - EX_gly_e
+        - GLYitr
+        - GLYt
+        - GLYtc
+        - GLYtex
+        - GLYtm
+        - GLYtp
+        - GLYtpp
+        - R_EX_gly_e
+        - R_GLYitr
+        - R_GLYt
+        - R_GLYtc
+        - R_GLYtex
+        - R_GLYtm
+        - R_GLYtp
+        - R_GLYtpp
+        - R_SK_gly_c
+        - SK_gly_c
+      - biggR:
+        - EX_gly_e
+        - GLYitr
+        - GLYt
+        - GLYtc
+        - GLYtex
+        - GLYtm
+        - GLYtp
+        - GLYtpp
+        - R_EX_gly_e
+        - R_GLYitr
+        - R_GLYt
+        - R_GLYtc
+        - R_GLYtex
+        - R_GLYtm
+        - R_GLYtp
+        - R_GLYtpp
+        - R_SK_gly_c
+        - SK_gly_c
+      - metacyc.reaction: TRANS-RXN0-537
+      - metacycR: TRANS-RXN0-537
+      - metanetx.reaction: MNXR100371
+      - sabiork.reaction: '13462'
+      - sabiorkR: '13462'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05218
+        - rxn08662
+        - rxn13111
+        - rxn31188
+      - seedR:
+        - rxn05218
+        - rxn08662
+        - rxn13111
+        - rxn31188
   - !!omap
     - id: EX_glyc-R[e]
     - name: (R)-Glycerate exchange
@@ -13857,8 +14995,34 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_glyc-R[e]
+      - bigg.reaction:
+        - EX_glyc__R_e
+        - GLYCAtex
+        - GLYC_Rt
+        - R_EX_glyc__R_e
+        - R_GLYCAtex
+        - R_GLYC_Rt
+      - biggR:
+        - EX_glyc__R_e
+        - GLYCAtex
+        - GLYC_Rt
+        - R_EX_glyc__R_e
+        - R_GLYCAtex
+        - R_GLYC_Rt
+      - metanetx.reaction: MNXR145093
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08645
+        - rxn30485
+        - rxn31179
+        - rxn31197
+        - rxn32435
+      - seedR:
+        - rxn08645
+        - rxn30485
+        - rxn31179
+        - rxn31197
+        - rxn32435
   - !!omap
     - id: EX_glyc[e]
     - name: Glycerol exchange
@@ -13868,8 +15032,62 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_glyc[e]
+      - bigg.reaction:
+        - EX_glyc_e
+        - GLYCt
+        - GLYCtc
+        - GLYCtex
+        - GLYCtg
+        - GLYCtm
+        - GLYCtpp
+        - R_EX_glyc_e
+        - R_GLYCt
+        - R_GLYCtc
+        - R_GLYCtex
+        - R_GLYCtg
+        - R_GLYCtm
+        - R_GLYCtpp
+      - biggR:
+        - EX_glyc_e
+        - GLYCt
+        - GLYCtc
+        - GLYCtex
+        - GLYCtg
+        - GLYCtm
+        - GLYCtpp
+        - R_EX_glyc_e
+        - R_GLYCt
+        - R_GLYCtc
+        - R_GLYCtex
+        - R_GLYCtg
+        - R_GLYCtm
+        - R_GLYCtpp
+      - metacyc.reaction: TRANS-RXN-131
+      - metacycR: TRANS-RXN-131
+      - metanetx.reaction: MNXR100343
+      - rhea:
+        - '29675'
+        - '29676'
+        - '29677'
+        - '29678'
+      - rheaR:
+        - '29675'
+        - '29676'
+        - '29677'
+        - '29678'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05581
+        - rxn08654
+        - rxn08658
+        - rxn32260
+        - rxn38745
+      - seedR:
+        - rxn05581
+        - rxn08654
+        - rxn08658
+        - rxn32260
+        - rxn38745
   - !!omap
     - id: EX_gthox[e]
     - name: Oxidized-glutathione exchange
@@ -13879,8 +15097,48 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_gthox[e]
+      - bigg.reaction:
+        - EX_gthox_e
+        - GTHOXtex
+        - GTHOXtg
+        - GTHOXti
+        - GTHOXtm
+        - GTHOXtu
+        - HMR_9628
+        - R_EX_gthox_e
+        - R_GTHOXtex
+        - R_GTHOXtg
+        - R_GTHOXti
+        - R_GTHOXtm
+        - R_GTHOXtu
+        - R_HMR_9628
+      - biggR:
+        - EX_gthox_e
+        - GTHOXtex
+        - GTHOXtg
+        - GTHOXti
+        - GTHOXtm
+        - GTHOXtu
+        - HMR_9628
+        - R_EX_gthox_e
+        - R_GTHOXtex
+        - R_GTHOXtg
+        - R_GTHOXti
+        - R_GTHOXtm
+        - R_GTHOXtu
+        - R_HMR_9628
+      - metanetx.reaction: MNXR100443
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08674
+        - rxn09677
+        - rxn33119
+        - rxn33123
+      - seedR:
+        - rxn08674
+        - rxn09677
+        - rxn33119
+        - rxn33123
   - !!omap
     - id: EX_h2[e]
     - name: H2 exchange
@@ -13890,8 +15148,50 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_h2[e]
+      - bigg.reaction:
+        - DM_h2_c
+        - EX_h2_e
+        - H2td
+        - H2tex
+        - H2th
+        - H2tm
+        - H2tpp
+        - R_DM_h2_c
+        - R_EX_h2_e
+        - R_H2td
+        - R_H2tex
+        - R_H2th
+        - R_H2tm
+        - R_H2tpp
+      - biggR:
+        - DM_h2_c
+        - EX_h2_e
+        - H2td
+        - H2tex
+        - H2th
+        - H2tm
+        - H2tpp
+        - R_DM_h2_c
+        - R_EX_h2_e
+        - R_H2td
+        - R_H2tex
+        - R_H2th
+        - R_H2tm
+        - R_H2tpp
+      - metanetx.reaction: MNXR100495
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08691
+        - rxn08692
+        - rxn10542
+        - rxn34227
+        - rxn34505
+      - seedR:
+        - rxn08691
+        - rxn08692
+        - rxn10542
+        - rxn34227
+        - rxn34505
   - !!omap
     - id: EX_h2o[e]
     - name: H2O exchange
@@ -13901,8 +15201,120 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_h2o[e]
+      - bigg.reaction:
+        - EX_h2o_e
+        - H2Ot
+        - H2Otcx
+        - H2Oter
+        - H2Otex
+        - H2Otf
+        - H2Otg
+        - H2Oth
+        - H2Othu
+        - H2Otly
+        - H2Otm
+        - H2Otn
+        - H2Otp
+        - H2Otpp
+        - H2Ots
+        - H2Otu_syn
+        - H2Otv
+        - R_EX_h2o_e
+        - R_H2Ot
+        - R_H2Otcx
+        - R_H2Oter
+        - R_H2Otex
+        - R_H2Otf
+        - R_H2Otg
+        - R_H2Oth
+        - R_H2Othu
+        - R_H2Otly
+        - R_H2Otm
+        - R_H2Otn
+        - R_H2Otp
+        - R_H2Otpp
+        - R_H2Ots
+        - R_H2Otu_syn
+        - R_H2Otv
+      - biggR:
+        - EX_h2o_e
+        - H2Ot
+        - H2Otcx
+        - H2Oter
+        - H2Otex
+        - H2Otf
+        - H2Otg
+        - H2Oth
+        - H2Othu
+        - H2Otly
+        - H2Otm
+        - H2Otn
+        - H2Otp
+        - H2Otpp
+        - H2Ots
+        - H2Otu_syn
+        - H2Otv
+        - R_EX_h2o_e
+        - R_H2Ot
+        - R_H2Otcx
+        - R_H2Oter
+        - R_H2Otex
+        - R_H2Otf
+        - R_H2Otg
+        - R_H2Oth
+        - R_H2Othu
+        - R_H2Otly
+        - R_H2Otm
+        - R_H2Otn
+        - R_H2Otp
+        - R_H2Otpp
+        - R_H2Ots
+        - R_H2Otu_syn
+        - R_H2Otv
+      - metacyc.reaction:
+        - RXN-22387
+        - TRANS-RXN-145
+        - TRANS-RXN0-547
+      - metacycR:
+        - RXN-22387
+        - TRANS-RXN-145
+        - TRANS-RXN0-547
+      - metanetx.reaction: MNXR98641
+      - rhea:
+        - '29667'
+        - '29668'
+        - '29669'
+        - '29670'
+      - rheaR:
+        - '29667'
+        - '29668'
+        - '29669'
+        - '29670'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05319
+        - rxn08686
+        - rxn08687
+        - rxn09643
+        - rxn09745
+        - rxn09812
+        - rxn09838
+        - rxn09874
+        - rxn31175
+        - rxn33306
+        - rxn34181
+      - seedR:
+        - rxn05319
+        - rxn08686
+        - rxn08687
+        - rxn09643
+        - rxn09745
+        - rxn09812
+        - rxn09838
+        - rxn09874
+        - rxn31175
+        - rxn33306
+        - rxn34181
   - !!omap
     - id: EX_h2s[e]
     - name: Hydrogen sulfide exchange
@@ -13912,8 +15324,60 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_h2s[e]
+      - bigg.reaction:
+        - EX_HC00250_e
+        - EX_h2s_e
+        - H2St1
+        - H2St1pp
+        - H2St_h
+        - H2St_m
+        - H2Stex
+        - R_EX_HC00250_e
+        - R_EX_h2s_e
+        - R_H2St1
+        - R_H2St1pp
+        - R_H2St_h
+        - R_H2St_m
+        - R_H2Stex
+        - R_r0940
+        - r0940
+      - biggR:
+        - EX_HC00250_e
+        - EX_h2s_e
+        - H2St1
+        - H2St1pp
+        - H2St_h
+        - H2St_m
+        - H2Stex
+        - R_EX_HC00250_e
+        - R_EX_h2s_e
+        - R_H2St1
+        - R_H2St1pp
+        - R_H2St_h
+        - R_H2St_m
+        - R_H2Stex
+        - R_r0940
+        - r0940
+      - metacyc.reaction: TRANS-RXN-310
+      - metacycR: TRANS-RXN-310
+      - metanetx.reaction: MNXR100494
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08689
+        - rxn08690
+        - rxn10541
+        - rxn29732
+        - rxn32852
+        - rxn34076
+        - rxn38729
+      - seedR:
+        - rxn08689
+        - rxn08690
+        - rxn10541
+        - rxn29732
+        - rxn32852
+        - rxn34076
+        - rxn38729
   - !!omap
     - id: EX_h[e]
     - name: proton exchange
@@ -13923,7 +15387,14 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_h[e]
+      - bigg.reaction:
+        - EX_h_e
+        - R_EX_h_e
+      - biggR:
+        - EX_h_e
+        - R_EX_h_e
+      - metanetx.reaction: MNXR02
+      - mnx: MNXR02
       - sbo: SBO:0000627
   - !!omap
     - id: EX_hco3
@@ -13945,8 +15416,42 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_ile-L[e]
+      - bigg.reaction:
+        - EX_ile__L_e
+        - ILEtec
+        - ILEtex
+        - ILEtmi
+        - R_EX_ile__L_e
+        - R_ILEtec
+        - R_ILEtex
+        - R_ILEtmi
+        - R_SK_ile__L_c
+        - SK_ile__L_c
+      - biggR:
+        - EX_ile__L_e
+        - ILEtec
+        - ILEtex
+        - ILEtmi
+        - R_EX_ile__L_e
+        - R_ILEtec
+        - R_ILEtex
+        - R_ILEtmi
+        - R_SK_ile__L_c
+        - SK_ile__L_c
+      - metanetx.reaction: MNXR100824
+      - sabiork.reaction: '13467'
+      - sabiorkR: '13467'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08747
+        - rxn10933
+        - rxn13323
+        - rxn33577
+      - seedR:
+        - rxn08747
+        - rxn10933
+        - rxn13323
+        - rxn33577
   - !!omap
     - id: EX_ind3ac[e]
     - name: Indole-3-acetate exchange
@@ -13956,8 +15461,36 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_ind3ac[e]
+      - bigg.reaction:
+        - EX_ind3ac_e
+        - IND3ACt
+        - IND3ACtex
+        - IND3ACtm
+        - R_EX_ind3ac_e
+        - R_IND3ACt
+        - R_IND3ACtex
+        - R_IND3ACtm
+        - R_SK_ind3ac_c
+        - SK_ind3ac_c
+      - biggR:
+        - EX_ind3ac_e
+        - IND3ACt
+        - IND3ACtex
+        - IND3ACtm
+        - R_EX_ind3ac_e
+        - R_IND3ACt
+        - R_IND3ACtex
+        - R_IND3ACtm
+        - R_SK_ind3ac_c
+        - SK_ind3ac_c
+      - metanetx.reaction: MNXR100833
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09741
+        - rxn29874
+      - seedR:
+        - rxn09741
+        - rxn29874
   - !!omap
     - id: EX_k[e]
     - name: potassium exchange
@@ -13967,8 +15500,64 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_k[e]
+      - bigg.reaction:
+        - DM_k_c
+        - DM_k_g
+        - EX_k_e
+        - Kt1
+        - Ktex
+        - Ktu
+        - R_DM_k_c
+        - R_DM_k_g
+        - R_EX_k_e
+        - R_Kt1
+        - R_Ktex
+        - R_Ktu
+      - biggR:
+        - DM_k_c
+        - DM_k_g
+        - EX_k_e
+        - Kt1
+        - Ktex
+        - Ktu
+        - R_DM_k_c
+        - R_DM_k_g
+        - R_EX_k_e
+        - R_Kt1
+        - R_Ktex
+        - R_Ktu
+      - metacyc.reaction:
+        - TRANS-RXN-185
+        - TRANS-RXN-186
+        - TRANS-RXN-187
+        - TRANS-RXN-190
+      - metacycR:
+        - TRANS-RXN-185
+        - TRANS-RXN-186
+        - TRANS-RXN-187
+        - TRANS-RXN-190
+      - metanetx.reaction: MNXR100950
+      - rhea:
+        - '29463'
+        - '29464'
+        - '29465'
+        - '29466'
+      - rheaR:
+        - '29463'
+        - '29464'
+        - '29465'
+        - '29466'
+      - sabiork.reaction: '7044'
+      - sabiorkR: '7044'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05206
+        - rxn08771
+        - rxn27350
+      - seedR:
+        - rxn05206
+        - rxn08771
+        - rxn27350
   - !!omap
     - id: EX_leu-L[e]
     - name: L-Leucine exchange
@@ -13978,7 +15567,29 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_leu-L[e]
+      - bigg.reaction:
+        - EX_leu__L_e
+        - LEUt5m
+        - LEUtec
+        - LEUtex
+        - R_EX_leu__L_e
+        - R_LEUt5m
+        - R_LEUtec
+        - R_LEUtex
+        - R_SK_leu__L_c
+        - SK_leu__L_c
+      - biggR:
+        - EX_leu__L_e
+        - LEUt5m
+        - LEUtec
+        - LEUtex
+        - R_EX_leu__L_e
+        - R_LEUt5m
+        - R_LEUtec
+        - R_LEUtex
+        - R_SK_leu__L_c
+        - SK_leu__L_c
+      - metanetx.reaction: MNXR191139
       - sbo: SBO:0000627
   - !!omap
     - id: EX_lys-L[e]
@@ -13989,8 +15600,46 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_lys-L[e]
+      - bigg.reaction:
+        - EX_lys__L_e
+        - LYSt5r
+        - LYStex
+        - LYStip
+        - LYStn
+        - R_EX_lys__L_e
+        - R_LYSt5r
+        - R_LYStex
+        - R_LYStip
+        - R_LYStn
+        - R_SK_lys__L_c
+        - SK_lys__L_c
+      - biggR:
+        - EX_lys__L_e
+        - LYSt5r
+        - LYStex
+        - LYStip
+        - LYStn
+        - R_EX_lys__L_e
+        - R_LYSt5r
+        - R_LYStex
+        - R_LYStip
+        - R_LYStn
+        - R_SK_lys__L_c
+        - SK_lys__L_c
+      - metacyc.reaction: TRANS-RXN0-569
+      - metacycR: TRANS-RXN0-569
+      - metanetx.reaction: MNXR188333
+      - sabiork.reaction: '7984'
+      - sabiorkR: '7984'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08856
+        - rxn10834
+        - rxn33297
+      - seedR:
+        - rxn08856
+        - rxn10834
+        - rxn33297
   - !!omap
     - id: EX_mg[e]
     - name: magnesium exchange
@@ -14000,7 +15649,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_mg[e]
+      - bigg.reaction: EX_mg_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_mn2[e]
@@ -14011,8 +15660,50 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_mn2[e]
+      - bigg.reaction:
+        - EX_mn2_e
+        - MN2tipp
+        - MN2tpp
+        - MNtex
+        - R_EX_mn2_e
+        - R_MN2tipp
+        - R_MN2tpp
+        - R_MNtex
+      - biggR:
+        - EX_mn2_e
+        - MN2tipp
+        - MN2tpp
+        - MNtex
+        - R_EX_mn2_e
+        - R_MN2tipp
+        - R_MN2tpp
+        - R_MNtex
+      - metacyc.reaction:
+        - RXN0-16
+        - TRANS-RXN0-487
+      - metacycR:
+        - RXN0-16
+        - TRANS-RXN0-487
+      - metanetx.reaction: MNXR101670
+      - rhea:
+        - '28699'
+        - '28700'
+        - '28701'
+        - '28702'
+      - rheaR:
+        - '28699'
+        - '28700'
+        - '28701'
+        - '28702'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08947
+        - rxn08952
+        - rxn29671
+      - seedR:
+        - rxn08947
+        - rxn08952
+        - rxn29671
   - !!omap
     - id: EX_mobd[e]
     - name: Molybdate exchange
@@ -14022,8 +15713,34 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_mobd[e]
+      - bigg.reaction:
+        - EX_mobd_e
+        - MOBDtex
+        - R_EX_mobd_e
+        - R_MOBDtex
+      - biggR:
+        - EX_mobd_e
+        - MOBDtex
+        - R_EX_mobd_e
+        - R_MOBDtex
+      - metanetx.reaction: MNXR101690
+      - rhea:
+        - '34907'
+        - '34908'
+        - '34909'
+        - '34910'
+      - rheaR:
+        - '34907'
+        - '34908'
+        - '34909'
+        - '34910'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08956
+        - rxn29245
+      - seedR:
+        - rxn08956
+        - rxn29245
   - !!omap
     - id: EX_n2[e]
     - name: nitrogen exchange
@@ -14033,7 +15750,25 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_n2[e]
+      - bigg.reaction:
+        - EX_n2_e
+        - N2tex
+        - N2tr
+        - N2trpp
+        - R_EX_n2_e
+        - R_N2tex
+        - R_N2tr
+        - R_N2trpp
+      - biggR:
+        - EX_n2_e
+        - N2tex
+        - N2tr
+        - N2trpp
+        - R_EX_n2_e
+        - R_N2tex
+        - R_N2tr
+        - R_N2trpp
+      - metanetx.reaction: MNXR145751
       - sbo: SBO:0000627
   - !!omap
     - id: EX_na[e]
@@ -14044,7 +15779,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_na[e]
+      - bigg.reaction: EX_na_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_nabl[e]
@@ -14055,7 +15790,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_nabl[e]
+      - bigg.reaction: EX_nabl_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_nac[e]
@@ -14066,8 +15801,34 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_nac[e]
+      - bigg.reaction:
+        - EX_nac_e
+        - NACt
+        - NACtex
+        - NACtpp
+        - R_EX_nac_e
+        - R_NACt
+        - R_NACtex
+        - R_NACtpp
+      - biggR:
+        - EX_nac_e
+        - NACt
+        - NACtex
+        - NACtpp
+        - R_EX_nac_e
+        - R_NACt
+        - R_NACtex
+        - R_NACtpp
+      - metanetx.reaction: MNXR101808
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05310
+        - rxn08969
+        - rxn08970
+      - seedR:
+        - rxn05310
+        - rxn08969
+        - rxn08970
   - !!omap
     - id: EX_nh4[e]
     - name: Ammonium exchange
@@ -14077,8 +15838,96 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_nh4[e]
+      - bigg.reaction:
+        - EX_nh3_e
+        - EX_nh4_e
+        - NH3te
+        - NH4t
+        - NH4tex
+        - NH4ti
+        - NH4tm
+        - NH4tn
+        - NH4tp
+        - NH4tpp
+        - NH4tr
+        - R_EX_nh3_e
+        - R_EX_nh4_e
+        - R_NH3te
+        - R_NH4t
+        - R_NH4tex
+        - R_NH4ti
+        - R_NH4tm
+        - R_NH4tn
+        - R_NH4tp
+        - R_NH4tpp
+        - R_NH4tr
+      - biggR:
+        - EX_nh3_e
+        - EX_nh4_e
+        - NH3te
+        - NH4t
+        - NH4tex
+        - NH4ti
+        - NH4tm
+        - NH4tn
+        - NH4tp
+        - NH4tpp
+        - NH4tr
+        - R_EX_nh3_e
+        - R_EX_nh4_e
+        - R_NH3te
+        - R_NH4t
+        - R_NH4tex
+        - R_NH4ti
+        - R_NH4tm
+        - R_NH4tn
+        - R_NH4tp
+        - R_NH4tpp
+        - R_NH4tr
+      - metacyc.reaction:
+        - RXN-9615
+        - TRANS-RXN0-206
+        - TRANS-RXN0-544
+      - metacycR:
+        - RXN-9615
+        - TRANS-RXN0-206
+        - TRANS-RXN0-544
+      - metanetx.reaction: MNXR101950
+      - rhea:
+        - '28747'
+        - '28748'
+        - '28749'
+        - '28750'
+      - rheaR:
+        - '28747'
+        - '28748'
+        - '28749'
+        - '28750'
+      - sabiork.reaction: '11683'
+      - sabiorkR: '11683'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05466
+        - rxn08986
+        - rxn08987
+        - rxn09736
+        - rxn09835
+        - rxn13364
+        - rxn29187
+        - rxn29241
+        - rxn29242
+        - rxn39085
+      - seedR:
+        - rxn05466
+        - rxn08986
+        - rxn08987
+        - rxn09736
+        - rxn09835
+        - rxn13364
+        - rxn29187
+        - rxn29241
+        - rxn29242
+        - rxn39085
   - !!omap
     - id: EX_ni2[e]
     - name: nickel exchange
@@ -14088,8 +15937,48 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_ni2[e]
+      - bigg.reaction:
+        - EX_ni2_e
+        - NI2tex
+        - NI2tpp
+        - NIt5
+        - R_EX_ni2_e
+        - R_NI2tex
+        - R_NI2tpp
+        - R_NIt5
+      - biggR:
+        - EX_ni2_e
+        - NI2tex
+        - NI2tpp
+        - NIt5
+        - R_EX_ni2_e
+        - R_NI2tex
+        - R_NI2tpp
+        - R_NIt5
+      - metacyc.reaction: TRANS-RXN-141B
+      - metacycR: TRANS-RXN-141B
+      - metanetx.reaction: MNXR101958
+      - rhea:
+        - '29831'
+        - '29832'
+        - '29833'
+        - '29834'
+      - rheaR:
+        - '29831'
+        - '29832'
+        - '29833'
+        - '29834'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08991
+        - rxn08992
+        - rxn10581
+        - rxn29057
+      - seedR:
+        - rxn08991
+        - rxn08992
+        - rxn10581
+        - rxn29057
   - !!omap
     - id: EX_no2[e]
     - name: nitrite exchange
@@ -14099,8 +15988,60 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_no2[e]
+      - bigg.reaction:
+        - DM_no2_c
+        - EX_no2_e
+        - NARK
+        - NO2tex
+        - NO2th
+        - NO2tmt
+        - R_DM_no2_c
+        - R_EX_no2_e
+        - R_NARK
+        - R_NO2tex
+        - R_NO2th
+        - R_NO2tmt
+      - biggR:
+        - DM_no2_c
+        - EX_no2_e
+        - NARK
+        - NO2tex
+        - NO2th
+        - NO2tmt
+        - R_DM_no2_c
+        - R_EX_no2_e
+        - R_NARK
+        - R_NO2tex
+        - R_NO2th
+        - R_NO2tmt
+      - metacyc.reaction: TRANS-RXN-137
+      - metacycR: TRANS-RXN-137
+      - metanetx.reaction: MNXR101912
+      - rhea:
+        - '28983'
+        - '28984'
+        - '28985'
+        - '28986'
+      - rheaR:
+        - '28983'
+        - '28984'
+        - '28985'
+        - '28986'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn08999
+        - rxn10823
+        - rxn29054
+        - rxn29236
+        - rxn33542
+        - rxn33543
+      - seedR:
+        - rxn08999
+        - rxn10823
+        - rxn29054
+        - rxn29236
+        - rxn33542
+        - rxn33543
   - !!omap
     - id: EX_no3[e]
     - name: nitrate exchange
@@ -14110,8 +16051,50 @@
     - upper_bound: 0.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_no3[e]
+      - bigg.reaction:
+        - DM_no3_c
+        - EX_no3_e
+        - NO3t
+        - NO3tex
+        - NO3tmt
+        - R_DM_no3_c
+        - R_EX_no3_e
+        - R_NO3t
+        - R_NO3tex
+        - R_NO3tmt
+      - biggR:
+        - DM_no3_c
+        - EX_no3_e
+        - NO3t
+        - NO3tex
+        - NO3tmt
+        - R_DM_no3_c
+        - R_EX_no3_e
+        - R_NO3t
+        - R_NO3tex
+        - R_NO3tmt
+      - metanetx.reaction: MNXR101992
+      - rhea:
+        - '34923'
+        - '34924'
+        - '34925'
+        - '34926'
+      - rheaR:
+        - '34923'
+        - '34924'
+        - '34925'
+        - '34926'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09005
+        - rxn10935
+        - rxn31185
+        - rxn34079
+      - seedR:
+        - rxn09005
+        - rxn10935
+        - rxn31185
+        - rxn34079
   - !!omap
     - id: EX_pac[e]
     - name: Phenylacetic acid exchange
@@ -14121,7 +16104,25 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_pac[e]
+      - bigg.reaction:
+        - EX_pac_e
+        - PACt
+        - PACt1
+        - R_EX_pac_e
+        - R_PACt
+        - R_PACt1
+        - R_pac
+        - pac
+      - biggR:
+        - EX_pac_e
+        - PACt
+        - PACt1
+        - R_EX_pac_e
+        - R_PACt
+        - R_PACt1
+        - R_pac
+        - pac
+      - metanetx.reaction: MNXR145886
       - sbo: SBO:0000627
   - !!omap
     - id: EX_pap[e]
@@ -14132,8 +16133,40 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_pap[e]
+      - bigg.reaction:
+        - EX_pap_e
+        - PAPitr
+        - PAPt
+        - PAPtg
+        - PAPtm
+        - R_EX_pap_e
+        - R_PAPitr
+        - R_PAPt
+        - R_PAPtg
+        - R_PAPtm
+        - R_SK_pap_c
+        - SK_pap_c
+      - biggR:
+        - EX_pap_e
+        - PAPitr
+        - PAPt
+        - PAPtg
+        - PAPtm
+        - R_EX_pap_e
+        - R_PAPitr
+        - R_PAPt
+        - R_PAPtg
+        - R_PAPtm
+        - R_SK_pap_c
+        - SK_pap_c
+      - metanetx.reaction: MNXR188619
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09665
+        - rxn09727
+      - seedR:
+        - rxn09665
+        - rxn09727
   - !!omap
     - id: EX_pheme[e]
     - name: protoheme exchange
@@ -14143,7 +16176,29 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_pheme[e]
+      - bigg.reaction:
+        - EX_pheme_e
+        - PHEMEt
+        - PHEMEth
+        - PHEMEtiex
+        - PHEMEtm
+        - R_EX_pheme_e
+        - R_PHEMEt
+        - R_PHEMEth
+        - R_PHEMEtiex
+        - R_PHEMEtm
+      - biggR:
+        - EX_pheme_e
+        - PHEMEt
+        - PHEMEth
+        - PHEMEtiex
+        - PHEMEtm
+        - R_EX_pheme_e
+        - R_PHEMEt
+        - R_PHEMEth
+        - R_PHEMEtiex
+        - R_PHEMEtm
+      - metanetx.reaction: MNXR102625
       - sbo: SBO:0000627
   - !!omap
     - id: EX_pi[e]
@@ -14154,8 +16209,86 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_pi[e]
+      - bigg.reaction:
+        - EX_pi_e
+        - PIcm
+        - PIt
+        - PIter
+        - PItex
+        - PItg
+        - PItn
+        - PItpp
+        - PItx
+        - R_EX_pi_e
+        - R_PIcm
+        - R_PIt
+        - R_PIter
+        - R_PItex
+        - R_PItg
+        - R_PItn
+        - R_PItpp
+        - R_PItx
+        - R_r1150
+        - r1150
+      - biggR:
+        - EX_pi_e
+        - PIcm
+        - PIt
+        - PIter
+        - PItex
+        - PItg
+        - PItn
+        - PItpp
+        - PItx
+        - R_EX_pi_e
+        - R_PIcm
+        - R_PIt
+        - R_PIter
+        - R_PItex
+        - R_PItg
+        - R_PItn
+        - R_PItpp
+        - R_PItx
+        - R_r1150
+        - r1150
+      - metacyc.reaction: TRANS-RXN0-470
+      - metacycR: TRANS-RXN0-470
+      - metanetx.reaction: MNXR146072
+      - rhea:
+        - '32823'
+        - '32824'
+        - '32825'
+        - '32826'
+      - rheaR:
+        - '32823'
+        - '32824'
+        - '32825'
+        - '32826'
+      - sabiork.reaction: '10985'
+      - sabiorkR: '10985'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09121
+        - rxn10838
+        - rxn13178
+        - rxn29213
+        - rxn31170
+        - rxn33113
+        - rxn33118
+        - rxn33124
+        - rxn33125
+        - rxn34544
+      - seedR:
+        - rxn09121
+        - rxn10838
+        - rxn13178
+        - rxn29213
+        - rxn31170
+        - rxn33113
+        - rxn33118
+        - rxn33124
+        - rxn33125
+        - rxn34544
   - !!omap
     - id: EX_pnto-R[e]
     - name: (R)-Pantothenate exchange
@@ -14165,8 +16298,48 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_pnto-R[e]
+      - bigg.reaction:
+        - DM_pnto__R_c
+        - EX_pnto__R_e
+        - PNTORtm
+        - PNTOte
+        - PNTOtex
+        - R_DM_pnto__R_c
+        - R_EX_pnto__R_e
+        - R_PNTORtm
+        - R_PNTOte
+        - R_PNTOtex
+      - biggR:
+        - DM_pnto__R_c
+        - EX_pnto__R_e
+        - PNTORtm
+        - PNTOte
+        - PNTOtex
+        - R_DM_pnto__R_c
+        - R_EX_pnto__R_e
+        - R_PNTORtm
+        - R_PNTOte
+        - R_PNTOtex
+      - metanetx.reaction: MNXR103051
+      - rhea:
+        - '34975'
+        - '34976'
+        - '34977'
+        - '34978'
+      - rheaR:
+        - '34975'
+        - '34976'
+        - '34977'
+        - '34978'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09166
+        - rxn34523
+        - rxn38800
+      - seedR:
+        - rxn09166
+        - rxn34523
+        - rxn38800
   - !!omap
     - id: EX_ppa[e]
     - name: propionate exchange
@@ -14176,8 +16349,44 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_ppa[e]
+      - bigg.reaction:
+        - EX_ppa_e
+        - PPAtex
+        - PPAth
+        - PPAtm
+        - PPAtr
+        - R_EX_ppa_e
+        - R_PPAtex
+        - R_PPAth
+        - R_PPAtm
+        - R_PPAtr
+      - biggR:
+        - EX_ppa_e
+        - PPAtex
+        - PPAth
+        - PPAtm
+        - PPAtr
+        - R_EX_ppa_e
+        - R_PPAtex
+        - R_PPAth
+        - R_PPAtm
+        - R_PPAtr
+      - metacyc.reaction: TRANS-RXN0-505
+      - metacycR: TRANS-RXN0-505
+      - metanetx.reaction: MNXR103094
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09172
+        - rxn10836
+        - rxn29233
+        - rxn33397
+        - rxn34524
+      - seedR:
+        - rxn09172
+        - rxn10836
+        - rxn29233
+        - rxn33397
+        - rxn34524
   - !!omap
     - id: EX_proline[e]
     - name: proline exchange
@@ -14187,7 +16396,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_proline[e]
+      - bigg.reaction: EX_proline_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_pyr[e]
@@ -14198,8 +16407,54 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_pyr[e]
+      - bigg.reaction:
+        - EX_pyr_e
+        - PYRt
+        - PYRt_x
+        - PYRtex
+        - PYRtf
+        - PYRth
+        - PYRtm
+        - R_EX_pyr_e
+        - R_PYRt
+        - R_PYRt_x
+        - R_PYRtex
+        - R_PYRtf
+        - R_PYRth
+        - R_PYRtm
+      - biggR:
+        - EX_pyr_e
+        - PYRt
+        - PYRt_x
+        - PYRtex
+        - PYRtf
+        - PYRth
+        - PYRtm
+        - R_EX_pyr_e
+        - R_PYRt
+        - R_PYRt_x
+        - R_PYRtex
+        - R_PYRtf
+        - R_PYRth
+        - R_PYRtm
+      - metacyc.reaction: TRANS-RXN0-570
+      - metacycR: TRANS-RXN0-570
+      - metanetx.reaction: MNXR103384
+      - sabiork.reaction: '12168'
+      - sabiorkR: '12168'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09218
+        - rxn10929
+        - rxn29234
+        - rxn31155
+        - rxn31164
+      - seedR:
+        - rxn09218
+        - rxn10929
+        - rxn29234
+        - rxn31155
+        - rxn31164
   - !!omap
     - id: EX_ribflv[e]
     - name: Riboflavin exchange
@@ -14209,8 +16464,50 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_ribflv[e]
+      - bigg.reaction:
+        - EX_ribflv_e
+        - RIBFLVth
+        - RIBFLVtm
+        - R_EX_ribflv_e
+        - R_RIBFLVth
+        - R_RIBFLVtm
+        - R_r1106
+        - r1106
+      - biggR:
+        - EX_ribflv_e
+        - RIBFLVth
+        - RIBFLVtm
+        - R_EX_ribflv_e
+        - R_RIBFLVth
+        - R_RIBFLVtm
+        - R_r1106
+        - r1106
+      - metanetx.reaction: MNXR104033
+      - rhea:
+        - '35015'
+        - '35016'
+        - '35017'
+        - '35018'
+      - rheaR:
+        - '35015'
+        - '35016'
+        - '35017'
+        - '35018'
+      - sabiork.reaction: '12838'
+      - sabiorkR: '12838'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05224
+        - rxn09715
+        - rxn33018
+        - rxn34403
+        - rxn38697
+      - seedR:
+        - rxn05224
+        - rxn09715
+        - rxn33018
+        - rxn34403
+        - rxn38697
   - !!omap
     - id: EX_sheme[e]
     - name: Siroheme exchange
@@ -14220,8 +16517,16 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_sheme[e]
+      - bigg.reaction:
+        - EX_sheme_e
+        - R_EX_sheme_e
+      - biggR:
+        - EX_sheme_e
+        - R_EX_sheme_e
+      - metanetx.reaction: MNXR190388
       - sbo: SBO:0000627
+      - seed.reaction: rxn29728
+      - seedR: rxn29728
   - !!omap
     - id: EX_so3[e]
     - name: sulfite exchange
@@ -14231,8 +16536,40 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_so3[e]
+      - bigg.reaction:
+        - EX_so3_e
+        - R_EX_so3_e
+        - R_SO3t_1
+        - R_SO3t_m
+        - R_SO3tex
+        - R_SO3ti
+        - SO3t_1
+        - SO3t_m
+        - SO3tex
+        - SO3ti
+      - biggR:
+        - EX_so3_e
+        - R_EX_so3_e
+        - R_SO3t_1
+        - R_SO3t_m
+        - R_SO3tex
+        - R_SO3ti
+        - SO3t_1
+        - SO3t_m
+        - SO3tex
+        - SO3ti
+      - metanetx.reaction: MNXR104460
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09260
+        - rxn12453
+        - rxn31935
+        - rxn34077
+      - seedR:
+        - rxn09260
+        - rxn12453
+        - rxn31935
+        - rxn34077
   - !!omap
     - id: EX_so4[e]
     - name: sulfate exchange
@@ -14242,8 +16579,62 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_so4[e]
+      - bigg.reaction:
+        - EX_so4_e
+        - HMR_9626
+        - R_EX_so4_e
+        - R_HMR_9626
+        - R_SO4tex
+        - R_SO4ti
+        - R_SO4tl
+        - R_SO4tn
+        - SO4tex
+        - SO4ti
+        - SO4tl
+        - SO4tn
+      - biggR:
+        - EX_so4_e
+        - HMR_9626
+        - R_EX_so4_e
+        - R_HMR_9626
+        - R_SO4tex
+        - R_SO4ti
+        - R_SO4tl
+        - R_SO4tn
+        - SO4tex
+        - SO4ti
+        - SO4tl
+        - SO4tn
+      - metanetx.reaction: MNXR104469
+      - rhea:
+        - '34983'
+        - '34984'
+        - '34985'
+        - '34986'
+      - rheaR:
+        - '34983'
+        - '34984'
+        - '34985'
+        - '34986'
+      - sabiork.reaction: '15893'
+      - sabiorkR: '15893'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05238
+        - rxn09261
+        - rxn31171
+        - rxn31183
+        - rxn32972
+        - rxn32975
+        - rxn34545
+      - seedR:
+        - rxn05238
+        - rxn09261
+        - rxn31171
+        - rxn31183
+        - rxn32972
+        - rxn32975
+        - rxn34545
   - !!omap
     - id: EX_thm[e]
     - name: Thiamin exchange
@@ -14253,8 +16644,48 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_thm[e]
+      - bigg.reaction:
+        - DM_thm_m
+        - EX_thm_e
+        - R_DM_thm_m
+        - R_EX_thm_e
+        - R_THMt_h
+        - R_THMtex
+        - R_THMtrbc
+        - THMt_h
+        - THMtex
+        - THMtrbc
+      - biggR:
+        - DM_thm_m
+        - EX_thm_e
+        - R_DM_thm_m
+        - R_EX_thm_e
+        - R_THMt_h
+        - R_THMtex
+        - R_THMtrbc
+        - THMt_h
+        - THMtex
+        - THMtrbc
+      - metanetx.reaction: MNXR151498
+      - rhea:
+        - '34919'
+        - '34920'
+        - '34921'
+        - '34922'
+      - rheaR:
+        - '34919'
+        - '34920'
+        - '34921'
+        - '34922'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09300
+        - rxn11006
+        - rxn33238
+      - seedR:
+        - rxn09300
+        - rxn11006
+        - rxn33238
   - !!omap
     - id: EX_thymd[e]
     - name: Thymidine exchange
@@ -14264,8 +16695,38 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_thymd[e]
+      - bigg.reaction:
+        - EX_thymd_e
+        - R_EX_thymd_e
+        - R_THMDtex
+        - R_THYMDt1
+        - R_THYMDtl
+        - R_THYMDtm
+        - THMDtex
+        - THYMDt1
+        - THYMDtl
+        - THYMDtm
+      - biggR:
+        - EX_thymd_e
+        - R_EX_thymd_e
+        - R_THMDtex
+        - R_THYMDt1
+        - R_THYMDtl
+        - R_THYMDtm
+        - THMDtex
+        - THYMDt1
+        - THYMDtl
+        - THYMDtm
+      - metanetx.reaction: MNXR104821
+      - sabiork.reaction: '14418'
+      - sabiorkR: '14418'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09299
+        - rxn10916
+      - seedR:
+        - rxn09299
+        - rxn10916
   - !!omap
     - id: EX_trp-L[e]
     - name: L-Tryptophan exchange
@@ -14275,8 +16736,48 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_trp-L[e]
+      - bigg.reaction:
+        - EX_trp__L_e
+        - R_EX_trp__L_e
+        - R_SK_trp__L_c
+        - R_TRPt
+        - R_TRPtex
+        - R_TRPtipp
+        - SK_trp__L_c
+        - TRPt
+        - TRPtex
+        - TRPtipp
+      - biggR:
+        - EX_trp__L_e
+        - R_EX_trp__L_e
+        - R_SK_trp__L_c
+        - R_TRPt
+        - R_TRPtex
+        - R_TRPtipp
+        - SK_trp__L_c
+        - TRPt
+        - TRPtex
+        - TRPtipp
+      - metacyc.reaction: RXN66-449
+      - metacycR: RXN66-449
+      - metanetx.reaction: MNXR146605
+      - sabiork.reaction:
+        - '13425'
+        - '14017'
+      - sabiorkR:
+        - '13425'
+        - '14017'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05222
+        - rxn09327
+        - rxn31848
+        - rxn34118
+      - seedR:
+        - rxn05222
+        - rxn09327
+        - rxn31848
+        - rxn34118
   - !!omap
     - id: EX_uacmamu[e]
     - name: UDP-N-acetyl-D-mannosaminouronate exchange
@@ -14286,7 +16787,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_uacmamu[e]
+      - bigg.reaction: EX_uacmamu_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_uamr[e]
@@ -14297,7 +16798,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_uamr[e]
+      - bigg.reaction: EX_uamr_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_unknown-cbl1deg[e]
@@ -14308,7 +16809,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_unknown-cbl1deg[e]
+      - bigg.reaction: EX_unknown-cbl1deg_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_unknown-rbfdeg[e]
@@ -14319,7 +16820,7 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_unknown-rbfdeg[e]
+      - bigg.reaction: EX_unknown-rbfdeg_e
       - sbo: SBO:0000627
   - !!omap
     - id: EX_urea[e]
@@ -14330,8 +16831,52 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_urea[e]
+      - bigg.reaction:
+        - EX_urea_e
+        - R_EX_urea_e
+        - R_UREAt
+        - R_UREAtex
+        - R_UREAtm
+        - R_UREAtpp
+        - UREAt
+        - UREAtex
+        - UREAtm
+        - UREAtpp
+      - biggR:
+        - EX_urea_e
+        - R_EX_urea_e
+        - R_UREAt
+        - R_UREAtex
+        - R_UREAtm
+        - R_UREAtpp
+        - UREAt
+        - UREAtex
+        - UREAtm
+        - UREAtpp
+      - metacyc.reaction: TRANS-RXN0-460
+      - metacycR: TRANS-RXN0-460
+      - metanetx.reaction: MNXR146728
+      - rhea:
+        - '32799'
+        - '32800'
+        - '32801'
+        - '32802'
+      - rheaR:
+        - '32799'
+        - '32800'
+        - '32801'
+        - '32802'
+      - sabiork.reaction: '14354'
+      - sabiorkR: '14354'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05667
+        - rxn09368
+        - rxn09369
+      - seedR:
+        - rxn05667
+        - rxn09368
+        - rxn09369
   - !!omap
     - id: EX_uri[e]
     - name: Uridine exchange
@@ -14341,8 +16886,44 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_uri[e]
+      - bigg.reaction:
+        - EX_uri_e
+        - R_EX_uri_e
+        - R_URIt
+        - R_URItex
+        - R_Uritl
+        - R_Uritm
+        - R_Uritn
+        - URIt
+        - URItex
+        - Uritl
+        - Uritm
+        - Uritn
+      - biggR:
+        - EX_uri_e
+        - R_EX_uri_e
+        - R_URIt
+        - R_URItex
+        - R_Uritl
+        - R_Uritm
+        - R_Uritn
+        - URIt
+        - URItex
+        - Uritl
+        - Uritm
+        - Uritn
+      - metanetx.reaction: MNXR188990
+      - sabiork.reaction: '14416'
+      - sabiorkR: '14416'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09372
+        - rxn10987
+        - rxn33021
+      - seedR:
+        - rxn09372
+        - rxn10987
+        - rxn33021
   - !!omap
     - id: EX_val-L[e]
     - name: L-Valine exchange
@@ -14352,8 +16933,56 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_val-L[e]
+      - bigg.reaction:
+        - EX_val__L_e
+        - R_EX_val__L_e
+        - R_SK_val__L_c
+        - R_VALt5m
+        - R_VALtec
+        - R_VALtex
+        - SK_val__L_c
+        - VALt5m
+        - VALtec
+        - VALtex
+      - biggR:
+        - EX_val__L_e
+        - R_EX_val__L_e
+        - R_SK_val__L_c
+        - R_VALt5m
+        - R_VALtec
+        - R_VALtex
+        - SK_val__L_c
+        - VALt5m
+        - VALtec
+        - VALtex
+      - metacyc.reaction: TRANS-RXN0-269
+      - metacycR: TRANS-RXN0-269
+      - metanetx.reaction: MNXR105190
+      - rhea:
+        - '29703'
+        - '29704'
+        - '29705'
+        - '29706'
+      - rheaR:
+        - '29703'
+        - '29704'
+        - '29705'
+        - '29706'
+      - sabiork.reaction: '13468'
+      - sabiorkR: '13468'
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn05245
+        - rxn09375
+        - rxn29139
+        - rxn33518
+        - rxn33520
+      - seedR:
+        - rxn05245
+        - rxn09375
+        - rxn29139
+        - rxn33518
+        - rxn33520
   - !!omap
     - id: EX_xtsn[e]
     - name: Xanthosine exchange
@@ -14363,8 +16992,30 @@
     - upper_bound: 1000.0
     - gene_reaction_rule: ''
     - annotation: !!omap
-      - bigg.reaction: EX_xtsn[e]
+      - bigg.reaction:
+        - EX_xtsn_e
+        - R_EX_xtsn_e
+        - R_XTSNtex
+        - R_XTSNtr
+        - XTSNtex
+        - XTSNtr
+      - biggR:
+        - EX_xtsn_e
+        - R_EX_xtsn_e
+        - R_XTSNtex
+        - R_XTSNtr
+        - XTSNtex
+        - XTSNtr
+      - metanetx.reaction: MNXR189028
       - sbo: SBO:0000627
+      - seed.reaction:
+        - rxn09382
+        - rxn29211
+        - rxn33384
+      - seedR:
+        - rxn09382
+        - rxn29211
+        - rxn33384
   - !!omap
     - id: Etoht
     - name: Ethanol transport
