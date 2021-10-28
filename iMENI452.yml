@@ -26252,6 +26252,7 @@
     - gene_reaction_rule: ANME2D_RS08620
     - annotation: !!omap
       - bigg.reaction: 2H3MOAOX
+      - ec-code: EC-1.1.1.86
       - sbo: SBO:0000176
   - !!omap
     - id: 2OBUTHE2THPPTRX
@@ -26267,6 +26268,7 @@
     - gene_reaction_rule: ANME2D_RS06360 or ANME2D_RS06365
     - annotation: !!omap
       - bigg.reaction: 2OBUTHE2THPPTRX
+      - ec-code: EC-2.2.1.6
       - sbo: SBO:0000176
   - !!omap
     - id: 2inst
@@ -26303,6 +26305,7 @@
     - gene_reaction_rule: ANME2D_RS08620
     - annotation: !!omap
       - bigg.reaction: 3H3MOPI
+      - ec-code: EC-1.1.1.86
       - sbo: SBO:0000176
   - !!omap
     - id: 3H3MOPOX
@@ -26318,6 +26321,7 @@
     - gene_reaction_rule: ANME2D_RS08620
     - annotation: !!omap
       - bigg.reaction: 3H3MOPOX
+      - ec-code: EC-1.1.1.86
       - sbo: SBO:0000176
   - !!omap
     - id: 3HBt
@@ -26528,6 +26532,7 @@
     - gene_reaction_rule: ANME2D_RS03095 or ANME2D_RS09105 or ANME2D_RS09375 or ANME2D_RS07480
     - annotation: !!omap
       - bigg.reaction: ACACT1
+      - ec-code: EC-2.3.1.9
       - sbo: SBO:0000176
   - !!omap
     - id: ACAFDOR
@@ -26570,6 +26575,7 @@
       - biggR:
         - ACBIPGT
         - R_ACBIPGT
+      - ec-code: EC-2.7.7.62
       - kegg.reaction: R05222
       - keggR: R05222
       - metacyc.reaction: COBINPGUANYLYLTRANS-RXN
@@ -26610,6 +26616,7 @@
       - biggR:
         - ACCOAL
         - R_ACCOAL
+      - ec-code: EC-6.2.1.13
       - kegg.reaction: R00920
       - keggR: R00920
       - metacyc.reaction: PROPANOATECOA-LIGASE-RXN
@@ -26658,6 +26665,7 @@
         - R_ACGK_1
         - R_ACGKm
         - R_AGK_h
+      - ec-code: EC-2.7.2.8
       - kegg.reaction: R02649
       - keggR: R02649
       - metacyc.reaction: ACETYLGLUTKIN-RXN
@@ -26737,6 +26745,7 @@
         - R_ACGS
         - R_ACGSm
         - R_AGAS_h
+      - ec-code: EC-2.3.1.1
       - kegg.reaction: R00259
       - keggR: R00259
       - metacyc.reaction: N-ACETYLTRANSFER-RXN
@@ -26789,6 +26798,7 @@
         - R_ACKr
         - R_ACKrh
         - R_ACKrm
+      - ec-code: EC-2.7.2.1
       - kegg.reaction: R00315
       - keggR: R00315
       - metacyc.reaction: ACETATEKIN-RXN
@@ -26835,6 +26845,7 @@
       - biggR:
         - ACLDC
         - R_ACLDC
+      - ec-code: EC-4.1.1.5
       - kegg.reaction: R02948
       - keggR: R02948
       - metacyc.reaction: ACETOLACTATE-DECARBOXYLASE-RXN
@@ -26879,6 +26890,7 @@
         - R_ACLS
         - R_ACLSm
         - R_PPATDh
+      - ec-code: EC-2.2.1.6
       - kegg.reaction:
         - R00006
         - R00226
@@ -26948,6 +26960,7 @@
         - R_ACONTa_1
         - R_r0317
         - r0317
+      - ec-code: EC-4.2.1.3
       - kegg.reaction: R01325
       - keggR: R01325
       - metacyc.reaction: ACONITATEDEHYDR-RXN
@@ -27009,6 +27022,7 @@
         - R_ACONTb_1
         - R_r0426
         - r0426
+      - ec-code: EC-4.2.1.3
       - kegg.reaction: R01900
       - keggR: R01900
       - metanetx.reaction: MNXR191427
@@ -27053,6 +27067,7 @@
         - R_ACOAT_h
         - R_ACOTA
         - R_ACOTAim
+      - ec-code: EC-2.6.1.11
       - kegg.reaction: R02283
       - keggR: R02283
       - metacyc.reaction: ACETYLORNTRANSAM-RXN
@@ -27115,6 +27130,7 @@
         - R_ACS_h
         - R_ACSm
         - R_ACSp
+      - ec-code: EC-6.2.1.13
       - kegg.reaction: R00235
       - keggR: R00235
       - metacyc.reaction: ACETATE--COA-LIGASE-RXN
@@ -27190,6 +27206,7 @@
         - ACYP
         - R_ACPh
         - R_ACYP
+      - ec-code: EC-3.6.1.7
       - kegg.reaction: R01515
       - keggR: R01515
       - metanetx.reaction: MNXR95410
@@ -27227,6 +27244,7 @@
         - R_ACYP_2
         - R_ACYP_3
         - R_APhi
+      - ec-code: EC-3.6.1.7
       - kegg.reaction: R00317
       - keggR: R00317
       - metanetx.reaction: MNXR95427
@@ -27266,6 +27284,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: ADCL2
+      - ec-code: Unassigned
       - sbo: SBO:0000176
   - !!omap
     - id: ADCPS1
@@ -27288,6 +27307,7 @@
       - biggR:
         - ADCPS1
         - R_ADCPS1
+      - ec-code: EC-6.3.1.10
       - metanetx.reaction: MNXR152869
       - sbo: SBO:0000176
   - !!omap
@@ -27311,6 +27331,7 @@
       - biggR:
         - ADCPS2
         - R_ADCPS2
+      - ec-code: EC-6.3.1.10
       - kegg.reaction: R06529
       - keggR: R06529
       - metacyc.reaction: RXN-6261
@@ -27356,6 +27377,7 @@
       - biggR:
         - ADCYRS
         - R_ADCYRS
+      - ec-code: EC-6.3.5.10
       - metanetx.reaction: MNXR149177
       - sbo: SBO:0000176
   - !!omap
@@ -27387,6 +27409,7 @@
         - R_ADK1g
         - R_ADK1m
         - R_ATAMh
+      - ec-code: EC-2.7.4.3
       - kegg.reaction: R00127
       - keggR: R00127
       - metacyc.reaction: ADENYL-KIN-RXN
@@ -27435,6 +27458,7 @@
         - ADK2_1
         - R_ADK2
         - R_ADK2_1
+      - ec-code: EC-2.7.4.3
       - metanetx.reaction: MNXR95451
       - sbo: SBO:0000176
       - seed.reaction: rxn10052
@@ -27461,6 +27485,7 @@
         - ADK3m
         - R_ADK3
         - R_ADK3m
+      - ec-code: EC-2.7.4.3
       - metacyc.reaction: RXN-14074
       - metacycR: RXN-14074
       - metanetx.reaction: MNXR190581
@@ -27505,6 +27530,7 @@
         - ADK4m
         - R_ADK4
         - R_ADK4m
+      - ec-code: EC-2.7.4.3
       - metanetx.reaction: MNXR190163
       - rhea:
         - '29867'
@@ -27540,6 +27566,7 @@
       - biggR:
         - ADKd
         - R_ADKd
+      - ec-code: EC-2.7.4.3
       - metanetx.reaction: MNXR95454
       - sbo: SBO:0000176
       - seed.reaction: rxn10427
@@ -27565,6 +27592,7 @@
         - ADNCYC
         - R_ADECn
         - R_ADNCYC
+      - ec-code: EC-4.6.1.1
       - kegg.reaction: R00089
       - keggR: R00089
       - metacyc.reaction: ADENYLATECYC-RXN
@@ -27628,6 +27656,7 @@
       - biggR:
         - ADOCBLS2
         - R_ADOCBLS2
+      - ec-code: EC-2.7.8.26
       - metanetx.reaction: MNXR190599
       - sbo: SBO:0000176
       - seed.reaction: rxn10429
@@ -27659,6 +27688,7 @@
         - R_ADPRDP
         - R_ADPRDP_1
         - R_ADPRDPm
+      - ec-code: EC-3.6.1.13
       - kegg.reaction: R01054
       - keggR: R01054
       - metacyc.reaction: RXN0-1441
@@ -27714,6 +27744,7 @@
         - R_AASPm
         - R_ADSK
         - R_ADSKn
+      - ec-code: EC-2.7.1.25
       - kegg.reaction: R00509
       - keggR: R00509
       - metacyc.reaction: ADENYLYLSULFKIN-RXN
@@ -27793,6 +27824,7 @@
     - gene_reaction_rule: ANME2D_RS00280
     - annotation: !!omap
       - bigg.reaction: ADSL2
+      - ec-code: EC-4.3.2.2
       - sbo: SBO:0000176
   - !!omap
     - id: ADSS
@@ -27819,6 +27851,7 @@
         - ADSSh
         - R_ADSS
         - R_ADSSh
+      - ec-code: EC-6.3.4.4
       - kegg.reaction: R01135
       - keggR: R01135
       - metacyc.reaction: ADENYLOSUCCINATE-SYNTHASE-RXN
@@ -27862,6 +27895,7 @@
       - biggR:
         - AGAIAGT
         - R_AGAIAGT
+      - ec-code: EC-2.4.1.198
       - metanetx.reaction: MNXR190615
       - sbo: SBO:0000176
       - seed.reaction: rxn10430
@@ -27910,6 +27944,7 @@
         - AGMTm
         - R_AGMT
         - R_AGMTm
+      - ec-code: EC-3.5.3.11
       - kegg.reaction: R01157
       - keggR: R01157
       - metacyc.reaction: AGMATIN-RXN
@@ -27966,6 +28001,7 @@
         - R_AGPR
         - R_AGPR_h
         - R_AGPRim
+      - ec-code: EC-1.2.1.38
       - kegg.reaction: R03443
       - keggR: R03443
       - metacyc.reaction: N-ACETYLGLUTPREDUCT-RXN
@@ -28012,6 +28048,7 @@
         - AHCi
         - R_ADSHm
         - R_AHCi
+      - ec-code: EC-3.3.1.1
       - kegg.reaction: R00192
       - keggR: R00192
       - metacyc.reaction: ADENOSYLHOMOCYSTEINASE-RXN
@@ -28065,6 +28102,7 @@
       - biggR:
         - AHGDx
         - R_AHGDx
+      - ec-code: EC-1.1.99.2
       - metanetx.reaction: MNXR152921
       - sbo: SBO:0000176
   - !!omap
@@ -28094,6 +28132,7 @@
         - R_AHHST
         - R_AHSERL2
         - R_AHSERL2_1
+      - ec-code: EC-2.5.1.47
       - metanetx.reaction: MNXR152923
       - sbo: SBO:0000176
   - !!omap
@@ -28114,6 +28153,7 @@
       - biggR:
         - AICART
         - R_AICART
+      - ec-code: EC-2.1.2.3
       - kegg.reaction: R04560
       - keggR: R04560
       - metanetx.reaction: MNXR190625
@@ -28157,6 +28197,7 @@
       - biggR:
         - AIRC2
         - R_AIRC2
+      - ec-code: EC-6.3.4.18
       - kegg.reaction: R07404
       - keggR: R07404
       - metacyc.reaction: RXN0-742
@@ -28193,6 +28234,7 @@
       - biggR:
         - AIRC3
         - R_AIRC3
+      - ec-code: EC-5.4.99.18
       - kegg.reaction: R07405
       - keggR: R07405
       - metacyc.reaction: RXN0-743
@@ -28260,6 +28302,7 @@
       - biggR:
         - AKGCAL
         - R_AKGCAL
+      - ec-code: EC-2.3.3.14
       - kegg.reaction: R08213
       - keggR: R08213
       - metacyc.reaction: R205-RXN
@@ -28295,6 +28338,7 @@
         - R_AKP1
         - R_AKP1_1
         - R_AKP1_2
+      - ec-code: EC-3.1.3.1
       - metanetx.reaction: MNXR151842
       - sbo: SBO:0000176
   - !!omap
@@ -28317,6 +28361,7 @@
       - biggR:
         - AKPCAL
         - R_AKPCAL
+      - ec-code: EC-4.1.3.-
       - metanetx.reaction: MNXR190636
       - sbo: SBO:0000176
       - seed.reaction: rxn10435
@@ -28469,6 +28514,7 @@
         - R_ALATL_h
         - R_ALATRS
         - R_ALATRS_1
+      - ec-code: EC-6.1.1.7
       - metanetx.reaction: MNXR152940
       - sbo: SBO:0000176
   - !!omap
@@ -28686,6 +28732,7 @@
         - ALDD31_1
         - R_ALDD31
         - R_ALDD31_1
+      - ec-code: EC-Undetermined
       - metanetx.reaction: MNXR95752
       - sbo: SBO:0000176
       - seed.reaction: rxn05735
@@ -28716,6 +28763,7 @@
         - R_ALKP_1
         - R_r0242
         - r0242
+      - ec-code: EC-3.1.3.1
       - kegg.reaction: R01010
       - keggR: R01010
       - metacyc.reaction: RXN0-7249
@@ -28756,6 +28804,7 @@
         - AMAOTr
         - R_AMAOT_m
         - R_AMAOTr
+      - ec-code: EC-2.6.1.62
       - metanetx.reaction: MNXR152974
       - sbo: SBO:0000176
   - !!omap
@@ -28780,6 +28829,7 @@
         - AMPTASECGe
         - R_AMPTASECG
         - R_AMPTASECGe
+      - ec-code: EC-3.4.11.2
       - kegg.reaction: R00899
       - keggR: R00899
       - metacyc.reaction: RXN-6622
@@ -28830,6 +28880,7 @@
         - ANTPPT
         - R_ANPRT
         - R_ANTPPT
+      - ec-code: EC-2.4.2.18
       - kegg.reaction: R01073
       - keggR: R01073
       - metacyc.reaction: PRTRANS-RXN
@@ -28880,6 +28931,7 @@
         - ATNS
         - R_ANS
         - R_ATNS
+      - ec-code: EC-4.1.3.27
       - kegg.reaction: R00986
       - keggR: R00986
       - metacyc.reaction: ANTHRANSYN-RXN
@@ -28936,6 +28988,7 @@
         - R_ANS2
         - R_ANSN
         - R_ATNS_nh4
+      - ec-code: EC-4.1.3.27
       - kegg.reaction: R00985
       - keggR: R00985
       - metanetx.reaction: MNXR152986
@@ -28970,6 +29023,7 @@
       - biggR:
         - AOXSr
         - R_AOXSr
+      - ec-code: EC-2.3.1.47
       - kegg.reaction: R03210
       - keggR: R03210
       - metacyc.reaction: 7KAPSYN-RXN
@@ -29037,6 +29091,7 @@
         - R_ARGDC
         - R_ARGDCm
         - R_ARGDCpp
+      - ec-code: EC-4.1.1.19
       - kegg.reaction: R00566
       - keggR: R00566
       - metacyc.reaction: ARGDECARBOX-RXN
@@ -29082,6 +29137,7 @@
       - biggR:
         - ARGSL
         - R_ARGSL
+      - ec-code: EC-4.3.2.1
       - kegg.reaction: R01086
       - keggR: R01086
       - metacyc.reaction: ARGSUCCINLYA-RXN
@@ -29137,6 +29193,7 @@
         - R_ARGSS
         - R_ARGSS2
         - R_ARGSS_1
+      - ec-code: EC-6.3.4.5
       - kegg.reaction: R01954
       - keggR: R01954
       - metacyc.reaction: ARGSUCCINSYN-RXN
@@ -29191,6 +29248,7 @@
         - R_ARGTRS
         - R_ARGTRS_1
         - R_ARGTRSm
+      - ec-code: EC-6.1.1.19
       - metanetx.reaction: MNXR153017
       - sbo: SBO:0000176
   - !!omap
@@ -29290,6 +29348,7 @@
       - biggR:
         - ASNS1
         - R_ASNS1
+      - ec-code: EC-6.3.5.4
       - kegg.reaction: R00578
       - keggR: R00578
       - metacyc.reaction: ASNSYNB-RXN
@@ -29367,6 +29426,7 @@
       - biggR:
         - ASP1DC
         - R_ASP1DC
+      - ec-code: EC-4.1.1.11
       - kegg.reaction: R00489
       - keggR: R00489
       - metacyc.reaction: ASPDECARBOX-RXN
@@ -29422,6 +29482,7 @@
         - R_ASPCT_2
         - R_ASPCTm
         - R_ASPCTn
+      - ec-code: EC-2.1.3.2
       - kegg.reaction: R01397
       - keggR: R01397
       - metacyc.reaction: ASPCARBTRANS-RXN
@@ -29508,6 +29569,7 @@
     - gene_reaction_rule: ANME2D_RS04995
     - annotation: !!omap
       - bigg.reaction: ASPO2x
+      - ec-code: EC-1.4.1.21
       - sbo: SBO:0000176
   - !!omap
     - id: ASPO2y
@@ -29528,6 +29590,7 @@
       - biggR:
         - ASPO2y
         - R_ASPO2y
+      - ec-code: EC-1.4.1.21
       - kegg.reaction: R07407
       - keggR: R07407
       - metanetx.reaction: MNXR96090
@@ -29615,6 +29678,7 @@
         - R_ASPTA
         - R_ASPTAm
         - R_ASPTAp
+      - ec-code: EC-2.6.1.1
       - kegg.reaction: R00355
       - keggR: R00355
       - metacyc.reaction:
@@ -29675,6 +29739,7 @@
         - R_ASPTRS
         - R_ASPTRS_1
         - R_ASPTRSm
+      - ec-code: EC-6.1.1.12
       - metanetx.reaction: MNXR153039
       - sbo: SBO:0000176
   - !!omap
@@ -29738,6 +29803,7 @@
     - gene_reaction_rule: ANME2D_RS02645
     - annotation: !!omap
       - bigg.reaction: ATPFORTRX
+      - ec-code: EC-6.3.4.23
       - sbo: SBO:0000176
   - !!omap
     - id: ATPHs
@@ -29869,6 +29935,7 @@
       - biggR:
         - ATPPRT
         - R_ATPPRT
+      - ec-code: EC-2.4.2.17
       - metanetx.reaction: MNXR153056
       - sbo: SBO:0000176
   - !!omap
@@ -30038,6 +30105,7 @@
         - BACCLm
         - R_BACCL
         - R_BACCLm
+      - ec-code: EC-6.3.4.15
       - kegg.reaction: R01074
       - keggR: R01074
       - metacyc.reaction: RXN0-7192
@@ -30079,6 +30147,7 @@
       - biggR:
         - BLAT
         - R_BLAT
+      - ec-code: EC-2.3.1.-
       - metanetx.reaction: MNXR190734
       - sbo: SBO:0000176
       - seed.reaction: rxn10445
@@ -30123,6 +30192,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: BSPRR
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: BTNabc
@@ -30193,6 +30263,7 @@
       - biggR:
         - BTS5
         - R_BTS5
+      - ec-code: EC-2.8.1.6
       - metanetx.reaction: MNXR96344
       - sbo: SBO:0000176
   - !!omap
@@ -30275,6 +30346,7 @@
         - R_CATp
         - R_CATpp
         - R_CATr
+      - ec-code: EC-1.11.1.6
       - kegg.reaction: R00009
       - keggR: R00009
       - metacyc.reaction: CATAL-RXN
@@ -30364,6 +30436,7 @@
       - biggR:
         - CBIAT
         - R_CBIAT
+      - ec-code: EC-2.5.1.17
       - kegg.reaction: R07268
       - keggR: R07268
       - metanetx.reaction: MNXR190018
@@ -30588,6 +30661,7 @@
         - R_CBPS_1
         - R_CBPSn
         - R_HCGALm
+      - ec-code: EC-6.3.5.5
       - kegg.reaction: R00575
       - keggR: R00575
       - metacyc.reaction: CARBPSYN-RXN
@@ -30733,6 +30807,7 @@
       - biggR:
         - CDGGGPP3
         - R_CDGGGPP3
+      - ec-code: EC-2.7.8.5
       - metanetx.reaction: MNXR96512
       - sbo: SBO:0000176
   - !!omap
@@ -30775,6 +30850,7 @@
       - biggR:
         - CDGGGS
         - R_CDGGGS
+      - ec-code: EC-2.7.7.41
       - metanetx.reaction: MNXR190778
       - sbo: SBO:0000176
       - seed.reaction: rxn10456
@@ -30821,6 +30897,7 @@
       - biggR:
         - CDGGGSAT
         - R_CDGGGSAT
+      - ec-code: EC-2.7.8.8
       - metanetx.reaction: MNXR190782
       - sbo: SBO:0000176
       - seed.reaction: rxn10458
@@ -30867,6 +30944,7 @@
       - biggR:
         - CDGGIPT
         - R_CDGGIPT
+      - ec-code: EC-2.7.8.11
       - metanetx.reaction: MNXR190786
       - sbo: SBO:0000176
       - seed.reaction: rxn10460
@@ -30913,6 +30991,7 @@
       - biggR:
         - CF3Ha
         - R_CF3Ha
+      - ec-code: EC-Undetermined
       - metanetx.reaction: MNXR153173
       - sbo: SBO:0000176
   - !!omap
@@ -30934,6 +31013,7 @@
       - biggR:
         - CF3Hg
         - R_CF3Hg
+      - ec-code: EC-Undetermined
       - metanetx.reaction: MNXR153175
       - sbo: SBO:0000176
   - !!omap
@@ -30955,6 +31035,7 @@
       - biggR:
         - CF3Sa
         - R_CF3Sa
+      - ec-code: EC-Undetermined
       - metanetx.reaction: MNXR153177
       - sbo: SBO:0000176
   - !!omap
@@ -30975,6 +31056,7 @@
       - biggR:
         - CF3Sg
         - R_CF3Sg
+      - ec-code: EC-Undetermined
       - metanetx.reaction: MNXR153179
       - sbo: SBO:0000176
   - !!omap
@@ -30994,6 +31076,7 @@
       - biggR:
         - CH2ACH
         - R_CH2ACH
+      - ec-code: EC-4.2.1.114
       - kegg.reaction: R10393
       - keggR: R10393
       - metacyc.reaction: R213-RXN
@@ -31019,6 +31102,7 @@
       - biggR:
         - CH3ACH
         - R_CH3ACH
+      - ec-code: EC-4.2.1.114
       - metanetx.reaction: MNXR150829
       - sbo: SBO:0000176
   - !!omap
@@ -31120,6 +31204,7 @@
         - CHRM
         - R_CHORM
         - R_CHRM
+      - ec-code: EC-5.4.99.5
       - kegg.reaction: R01715
       - keggR: R01715
       - metacyc.reaction: CHORISMATEMUT-RXN
@@ -31171,6 +31256,7 @@
         - R_CHORS
         - R_CHORS_1
         - R_CHRS
+      - ec-code: EC-4.2.3.5
       - kegg.reaction: R01714
       - keggR: R01714
       - metacyc.reaction: CHORISMATE-SYNTHASE-RXN
@@ -31212,6 +31298,7 @@
       - biggR:
         - CHRPL
         - R_CHRPL
+      - ec-code: EC-4.1.3.40
       - kegg.reaction: R01302
       - keggR: R01302
       - metacyc.reaction: CHORPYRLY-RXN
@@ -31409,6 +31496,7 @@
         or ANME2D_RS09295 ) and ANME2D_RS02500
     - annotation: !!omap
       - bigg.reaction: CODH2
+      - ec-code: EC-1.2.7.4
       - sbo: SBO:0000176
   - !!omap
     - id: CODH3
@@ -31429,6 +31517,7 @@
       - biggR:
         - CODH3
         - R_CODH3
+      - ec-code: EC-2.3.1.169
       - metanetx.reaction: MNXR138180
       - sbo: SBO:0000176
   - !!omap
@@ -31521,6 +31610,7 @@
       - biggR:
         - CPC2MT
         - R_CPC2MT
+      - ec-code: EC-2.1.1.151
       - metanetx.reaction: MNXR153225
       - sbo: SBO:0000176
   - !!omap
@@ -31541,6 +31631,7 @@
       - biggR:
         - CPC3MT
         - R_CPC3MT
+      - ec-code: EC-2.1.1.131
       - metanetx.reaction: MNXR153228
       - sbo: SBO:0000176
   - !!omap
@@ -31562,6 +31653,7 @@
       - biggR:
         - CPC4MT
         - R_CPC4MT
+      - ec-code: EC-2.1.1.133
       - metanetx.reaction: MNXR153253
       - sbo: SBO:0000176
   - !!omap
@@ -31607,6 +31699,7 @@
       - biggR:
         - CPC6MT
         - R_CPC6MT
+      - ec-code: EC-2.1.1.132
       - metanetx.reaction: MNXR153258
       - sbo: SBO:0000176
   - !!omap
@@ -31628,6 +31721,7 @@
       - biggR:
         - CPC6R
         - R_CPC6R
+      - ec-code: EC-1.3.1.54
       - metanetx.reaction: MNXR153240
       - sbo: SBO:0000176
   - !!omap
@@ -31647,6 +31741,7 @@
       - biggR:
         - CPC8MM
         - R_CPC8MM
+      - ec-code: EC-5.4.99.60
       - metanetx.reaction: MNXR151566
       - sbo: SBO:0000176
   - !!omap
@@ -31678,6 +31773,7 @@
         - R_CS
         - R_CSm
         - R_CSp
+      - ec-code: EC-2.3.3.1
       - kegg.reaction: R00351
       - keggR: R00351
       - metacyc.reaction:
@@ -31741,6 +31837,7 @@
         - R_CTPS1
         - R_CTPS1_2
         - R_CTPS1n
+      - ec-code: EC-6.3.4.2
       - kegg.reaction: R00571
       - keggR: R00571
       - metacyc.reaction: RXN-14325
@@ -31796,6 +31893,7 @@
         - CTPS2n
         - R_CTPS2
         - R_CTPS2n
+      - ec-code: EC-6.3.4.2
       - kegg.reaction: R00573
       - keggR: R00573
       - metacyc.reaction: CTPSYN-RXN
@@ -31843,6 +31941,7 @@
       - biggR:
         - CYRDAAT
         - R_CYRDAAT
+      - ec-code: EC-2.5.1.17
       - metanetx.reaction: MNXR96982
       - sbo: SBO:0000176
   - !!omap
@@ -31864,6 +31963,7 @@
       - biggR:
         - CYRDAR
         - R_CYRDAR
+      - ec-code: EC-1.16.8.1
       - metanetx.reaction: MNXR96983
       - sbo: SBO:0000176
   - !!omap
@@ -31889,6 +31989,7 @@
       - biggR:
         - CYRDAS
         - R_CYRDAS
+      - ec-code: EC-6.3.5.11
       - metanetx.reaction: MNXR96985
       - sbo: SBO:0000176
   - !!omap
@@ -31922,6 +32023,7 @@
         - R_r0193
         - TRPAS1
         - r0193
+      - ec-code: EC-4.4.1.15
       - kegg.reaction: R00782
       - keggR: R00782
       - metacyc.reaction: LCYSDESULF-RXN
@@ -31993,6 +32095,7 @@
         - R_CYSTL_h
         - R_CYSTRS
         - R_CYSTRS_1
+      - ec-code: EC-6.1.1.16
       - metanetx.reaction: MNXR153294
       - sbo: SBO:0000176
   - !!omap
@@ -32104,6 +32207,7 @@
         - R_CYTK1
         - R_CYTK1m
         - R_CYTK1n
+      - ec-code: EC-2.7.4.25
       - kegg.reaction: R00512
       - keggR: R00512
       - metacyc.reaction: RXN-11832
@@ -32152,6 +32256,7 @@
         - R_CYTK2
         - R_CYTK2m
         - R_CYTK2n
+      - ec-code: EC-2.7.4.25
       - kegg.reaction: R01665
       - keggR: R01665
       - metacyc.reaction: RXN-7913
@@ -32189,6 +32294,7 @@
     - gene_reaction_rule: ANME2D_RS06310
     - annotation: !!omap
       - bigg.reaction: CYTK5
+      - ec-code: EC-2.7.4.25
       - sbo: SBO:0000176
   - !!omap
     - id: Campt
@@ -32378,6 +32484,7 @@
         - R_ATDAMh
         - R_ATDAMm
         - R_DADK
+      - ec-code: EC-2.7.4.11
       - kegg.reaction: R01547
       - keggR: R01547
       - metacyc.reaction: DEOXYADENYLATE-KINASE-RXN
@@ -32466,6 +32573,7 @@
         - DAPDC_h
         - R_DAPDC
         - R_DAPDC_h
+      - ec-code: EC-4.1.1.20
       - kegg.reaction: R00451
       - keggR: R00451
       - metacyc.reaction: DIAMINOPIMDECARB-RXN
@@ -32512,6 +32620,7 @@
         - DAPEP_h
         - R_DAPE
         - R_DAPEP_h
+      - ec-code: EC-5.1.1.7
       - kegg.reaction: R02735
       - keggR: R02735
       - metacyc.reaction: DIAMINOPIMEPIM-RXN
@@ -32548,6 +32657,7 @@
     - gene_reaction_rule: ANME2D_RS00165
     - annotation: !!omap
       - bigg.reaction: DAPNH4T
+      - ec-code: EC-2.6.1.83
       - sbo: SBO:0000176
   - !!omap
     - id: DATPHs
@@ -32594,6 +32704,7 @@
         - DB4PS_h
         - R_DB4PS
         - R_DB4PS_h
+      - ec-code: EC-4.1.99.12
       - kegg.reaction: R07281
       - keggR: R07281
       - metanetx.reaction: MNXR190886
@@ -32672,6 +32783,7 @@
         - DCMPDA_1
         - R_DCMPDA
         - R_DCMPDA_1
+      - ec-code: EC-3.5.4.12
       - kegg.reaction: R01663
       - keggR: R01663
       - metacyc.reaction: DCMP-DEAMINASE-RXN
@@ -32721,6 +32833,7 @@
         - DCTPD_1
         - R_DCTPD
         - R_DCTPD_1
+      - ec-code: EC-3.5.4.13
       - kegg.reaction: R02325
       - keggR: R02325
       - metacyc.reaction: DCTP-DEAM-RXN
@@ -32877,6 +32990,7 @@
         - R_DHAD1
         - R_DHAD1m
         - R_DHAD_3mob_h
+      - ec-code: EC-4.2.1.9
       - kegg.reaction:
         - R01209
         - R04441
@@ -32950,6 +33064,7 @@
         - R_DHAD2
         - R_DHAD2m
         - R_DHADh
+      - ec-code: EC-4.2.1.9
       - kegg.reaction: R05070
       - keggR: R05070
       - metacyc.reaction: DIHYDROXYMETVALDEHYDRAT-RXN
@@ -32994,6 +33109,7 @@
     - gene_reaction_rule: ANME2D_RS04475
     - annotation: !!omap
       - bigg.reaction: DHDPRx
+      - ec-code: EC-1.17.1.8
       - sbo: SBO:0000176
   - !!omap
     - id: DHDPRy
@@ -33018,6 +33134,7 @@
         - DHPR_h
         - R_DHDPRy
         - R_DHPR_h
+      - ec-code: EC-1.17.1.8
       - metanetx.reaction: MNXR134418
       - sabiork.reaction: '3915'
       - sabiorkR: '3915'
@@ -33050,6 +33167,7 @@
         - DHPS_h
         - R_DHDPS
         - R_DHPS_h
+      - ec-code: EC-4.3.3.7
       - metanetx.reaction: MNXR125801
       - rhea:
         - '14845'
@@ -33093,6 +33211,7 @@
         - DHFRim
         - R_DHFR
         - R_DHFRim
+      - ec-code: EC-1.5.1.3
       - kegg.reaction: R00939
       - keggR: R00939
       - metacyc.reaction: RXN-19329
@@ -33144,6 +33263,7 @@
         - DHFS_1
         - R_DHFS
         - R_DHFS_1
+      - ec-code: EC-6.3.2.12
       - kegg.reaction: R02237
       - keggR: R02237
       - metacyc.reaction: DIHYDROFOLATESYNTH-RXN
@@ -33179,6 +33299,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: DHNPA2
+      - ec-code: EC-4.1.2.25
       - sbo: SBO:0000176
   - !!omap
     - id: DHORTS
@@ -33210,6 +33331,7 @@
         - R_DHORTSn
         - R_DHR
         - R_DHR_1
+      - ec-code: EC-3.5.2.3
       - kegg.reaction: R01993
       - keggR: R01993
       - metacyc.reaction: DIHYDROOROT-RXN
@@ -33291,6 +33413,7 @@
         - R_FOLD3
         - R_FOLD3_1
         - R_FOLD3m
+      - ec-code: EC-2.5.1.15
       - kegg.reaction: R03067
       - keggR: R03067
       - metacyc.reaction: H2PTEROATESYNTH-RXN
@@ -33364,6 +33487,7 @@
     - gene_reaction_rule: ANME2D_RS03490
     - annotation: !!omap
       - bigg.reaction: DHQD
+      - ec-code: EC-4.2.1.10
       - sbo: SBO:0000176
   - !!omap
     - id: DHQS2
@@ -33404,6 +33528,7 @@
       - biggR:
         - DIPS
         - R_DIPS
+      - ec-code: EC-2.1.1.98
       - metanetx.reaction: MNXR151437
       - sbo: SBO:0000176
   - !!omap
@@ -33422,6 +33547,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: DKFPASPL
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: DKFPS2
@@ -33441,6 +33567,7 @@
       - biggR:
         - DKFPS2
         - R_DKFPS2
+      - ec-code: 2.2.1.11
       - metanetx.reaction: MNXR153369
       - sbo: SBO:0000176
   - !!omap
@@ -33487,6 +33614,7 @@
         - R_DMATTx
         - R_GPPS_h
         - R_GPPSh
+      - ec-code: EC-2.5.1.1
       - kegg.reaction: R01658
       - keggR: R01658
       - metacyc.reaction: GPPSYN-RXN
@@ -33558,6 +33686,7 @@
       - biggR:
         - DMHDRFS
         - R_DMHDRFS
+      - ec-code: EC-4.3.1.32
       - metanetx.reaction: MNXR153377
       - sbo: SBO:0000176
   - !!omap
@@ -33601,6 +33730,7 @@
       - biggR:
         - DOHDUS
         - R_DOHDUS
+      - ec-code: EC-4.2.3.-
       - metanetx.reaction: MNXR97689
       - sbo: SBO:0000176
       - seed.reaction: rxn10501
@@ -33636,6 +33766,7 @@
         - R_DPCOAK_1
         - R_DPCOAKc
         - R_DPCOAKm
+      - ec-code: EC-2.7.1.24
       - kegg.reaction: R00130
       - keggR: R00130
       - metacyc.reaction: DEPHOSPHOCOAKIN-RXN
@@ -33689,6 +33820,7 @@
         - R_DPR
         - R_DPRm
         - R_PNORn
+      - ec-code: EC-1.1.1.169
       - kegg.reaction: R02472
       - keggR: R02472
       - metacyc.reaction: 2-DEHYDROPANTOATE-REDUCT-RXN
@@ -33802,6 +33934,7 @@
         - DTMPKm
         - R_DTMPK
         - R_DTMPKm
+      - ec-code: EC-2.7.4.9
       - kegg.reaction: R02094
       - keggR: R02094
       - metacyc.reaction: DTMPKI-RXN
@@ -33859,6 +33992,7 @@
         - R_DUTPDP_1
         - R_DUTPDPm
         - R_DUTPDPn
+      - ec-code: EC-3.6.1.23
       - kegg.reaction: R02100
       - keggR: R02100
       - metacyc.reaction: DUTP-PYROP-RXN
@@ -33983,6 +34117,7 @@
     - gene_reaction_rule: ANME2D_RS17390 and ANME2D_RS10865
     - annotation: !!omap
       - bigg.reaction: ECH
+      - ec-code: EC-4.2.1.17
       - sbo: SBO:0000176
   - !!omap
     - id: ENO
@@ -34013,6 +34148,7 @@
         - R_ENO_h
         - R_ENOf
         - R_ENOm
+      - ec-code: EC-4.2.1.11
       - kegg.reaction: R00658
       - keggR: R00658
       - metacyc.reaction: 2PGADEHYDRAT-RXN
@@ -37943,6 +38079,7 @@
       - biggR:
         - F4MTSPD
         - R_F4MTSPD
+      - ec-code: EC-1.5.98.1
       - metanetx.reaction: MNXR153464
       - sbo: SBO:0000176
   - !!omap
@@ -37963,6 +38100,7 @@
       - biggR:
         - F4MTSPR
         - R_F4MTSPR
+      - ec-code: EC-1.5.98.2
       - metanetx.reaction: MNXR153466
       - sbo: SBO:0000176
   - !!omap
@@ -37999,6 +38137,7 @@
     - gene_reaction_rule: ANME2D_RS14785
     - annotation: !!omap
       - bigg.reaction: FAE
+      - ec-code: EC-4.2.1.147
       - sbo: SBO:0000176
   - !!omap
     - id: FAPH
@@ -38015,6 +38154,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: FAPH
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: FBA
@@ -38041,6 +38181,7 @@
         - R_FBA
         - R_FBA_h
         - R_FBAg
+      - ec-code: EC-4.1.2.13
       - metanetx.reaction: MNXR153517
       - sbo: SBO:0000176
   - !!omap
@@ -38064,6 +38205,7 @@
         - FPGPL
         - R_FBA2
         - R_FPGPL
+      - ec-code: EC-4.1.2.13
       - kegg.reaction: R02568
       - keggR: R02568
       - metacyc.reaction: RXN-8631
@@ -38118,6 +38260,7 @@
         - R_FBP
         - R_FBP_h
         - R_FBPg
+      - ec-code: EC-3.1.3.11
       - kegg.reaction:
         - R00762
         - R04780
@@ -38190,6 +38333,7 @@
       - biggR:
         - FDH
         - R_FDH
+      - ec-code: EC-1.17.1.9
       - kegg.reaction: R00519
       - keggR: R00519
       - metacyc.reaction: 1.2.1.2-RXN
@@ -38335,6 +38479,7 @@
         - FGLU_1
         - R_FGLU
         - R_FGLU_1
+      - ec-code: EC-3.5.3.8
       - kegg.reaction: R02285
       - keggR: R02285
       - metacyc.reaction: FORMIMINOGLUTAMASE-RXN
@@ -38380,6 +38525,7 @@
         - R_FMETTRS
         - R_FMETTRS_1
         - R_FMETTRSm
+      - ec-code: EC-2.1.2.9
       - metanetx.reaction: MNXR153587
       - sbo: SBO:0000176
   - !!omap
@@ -38400,6 +38546,7 @@
         or ANME2D_RS09285 ) and ANME2D_RS01930
     - annotation: !!omap
       - bigg.reaction: FMFD_b_
+      - ec-code: EC-1.2.7.12
       - sbo: SBO:0000176
   - !!omap
     - id: FMFTSPFT_b_
@@ -38414,6 +38561,7 @@
     - gene_reaction_rule: ANME2D_RS03075
     - annotation: !!omap
       - bigg.reaction: FMFTSPFT_b_
+      - ec-code: EC-2.3.1.101
       - sbo: SBO:0000176
   - !!omap
     - id: FMNAT
@@ -38450,6 +38598,7 @@
         - R_FMNAT_1
         - R_FMNAT_h
         - R_FMNATm
+      - ec-code: EC-2.7.7.2
       - kegg.reaction: R00161
       - keggR: R00161
       - metanetx.reaction: MNXR192638
@@ -38483,6 +38632,7 @@
         - R_FOLR2_1
         - R_r0514
         - r0514
+      - ec-code: EC-1.5.1.3
       - kegg.reaction: R02236
       - keggR: R02236
       - metanetx.reaction: MNXR97400
@@ -38617,6 +38767,7 @@
         ANME2D_RS04655 and ANME2D_RS04650
     - annotation: !!omap
       - bigg.reaction: FQO
+      - ec-code: EC-1.1.98.4
       - sbo: SBO:0000176
   - !!omap
     - id: FRTT
@@ -38644,6 +38795,7 @@
         - R_FRTT
         - R_GGPS_1
         - R_GGPS_h
+      - ec-code: EC-2.5.1.29
       - kegg.reaction: R02061
       - keggR: R02061
       - metacyc.reaction: FARNESYLTRANSTRANSFERASE-RXN
@@ -38751,6 +38903,7 @@
       - biggR:
         - G1PACT
         - R_G1PACT
+      - ec-code: EC-2.3.1.157
       - kegg.reaction: R05332
       - keggR: R05332
       - metacyc.reaction: 2.3.1.157-RXN
@@ -38794,6 +38947,7 @@
       - biggR:
         - G1PDH
         - R_G1PDH
+      - ec-code: EC-1.1.1.261
       - kegg.reaction: R05679
       - keggR: R05679
       - metanetx.reaction: MNXR99843
@@ -38831,6 +38985,7 @@
       - biggR:
         - G1PTT
         - R_G1PTT
+      - ec-code: EC-2.7.7.24
       - metanetx.reaction: MNXR192102
       - sabiork.reaction: '2281'
       - sabiorkR: '2281'
@@ -38847,6 +39002,7 @@
     - gene_reaction_rule: ANME2D_RS04755
     - annotation: !!omap
       - bigg.reaction: G1SATi
+      - ec-code: EC-5.4.3.8
       - sbo: SBO:0000176
   - !!omap
     - id: G5SADs
@@ -38874,6 +39030,7 @@
         - R_G5SADrm
         - R_G5SADs
         - R_P5CN
+      - ec-code: non enzymatic
       - kegg.reaction: R03314
       - keggR: R03314
       - metacyc.reaction: SPONTPRO-RXN
@@ -38924,6 +39081,7 @@
         - R_G5DHx
         - R_G5SD
         - R_G5SDym
+      - ec-code: EC-1.2.1.41
       - kegg.reaction: R03313
       - keggR: R03313
       - metacyc.reaction: GLUTSEMIALDEHYDROG-RXN
@@ -38989,6 +39147,7 @@
         - GALUi
         - R_G1PUT_h
         - R_GALUi
+      - ec-code: EC-2.7.7.9
       - metanetx.reaction: MNXR152165
       - sabiork.reaction: '68'
       - sabiorkR: '68'
@@ -39033,6 +39192,7 @@
         - R_GAPDHm
         - R_GAPD_1
         - R_GAPDg
+      - ec-code: EC-1.2.1.12
       - metanetx.reaction: MNXR144947
       - sbo: SBO:0000176
   - !!omap
@@ -39050,6 +39210,7 @@
     - gene_reaction_rule: ANME2D_RS04075 or ANME2D_RS10925
     - annotation: !!omap
       - bigg.reaction: GAPD(nadp)
+      - ec-code: EC-1.2.1.59
       - sbo: SBO:0000176
   - !!omap
     - id: GARFT
@@ -39078,6 +39239,7 @@
         - R_FPGFTh
         - R_FPGFTm
         - R_GARFT
+      - ec-code: EC-2.1.2.2
       - kegg.reaction: R04325
       - keggR: R04325
       - metanetx.reaction: MNXR165700
@@ -39152,6 +39314,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: GCC
+      - ec-code: EC-1.8.1.4
       - sbo: SBO:0000176
   - !!omap
     - id: GF4GL_0
@@ -39340,6 +39503,7 @@
       - biggR:
         - GF6PTA
         - R_GF6PTA
+      - ec-code: EC-2.6.1.16
       - kegg.reaction: R00768
       - keggR: R00768
       - metacyc.reaction: L-GLN-FRUCT-6-P-AMINOTRANS-RXN
@@ -39387,6 +39551,7 @@
       - biggR:
         - GFUCS
         - R_GFUCS
+      - ec-code: EC-1.1.1.271
       - kegg.reaction: R05692
       - keggR: R05692
       - metacyc.reaction: 1.1.1.271-RXN
@@ -39444,6 +39609,7 @@
       - biggR:
         - GGGPS
         - R_GGGPS
+      - ec-code: EC-2.5.1.41
       - kegg.reaction: R04158
       - keggR: R04158
       - metacyc.reaction: 2.5.1.41-RXN
@@ -39480,6 +39646,7 @@
     - gene_reaction_rule: ANME2D_RS15660
     - annotation: !!omap
       - bigg.reaction: GHMT2
+      - ec-code: EC-2.1.2.1
       - sbo: SBO:0000176
   - !!omap
     - id: GK1
@@ -39507,6 +39674,7 @@
         - R_GK1
         - R_GK1er
         - R_GK1m
+      - ec-code: EC-2.7.4.8
       - kegg.reaction: R00332
       - keggR: R00332
       - metacyc.reaction: GUANYL-KIN-RXN
@@ -39572,6 +39740,7 @@
         - R_GALm
         - R_GLNS
         - R_GLNS_1
+      - ec-code: EC-6.3.1.2
       - kegg.reaction: R00253
       - keggR: R00253
       - metacyc.reaction: GLUTAMINESYN-RXN
@@ -39631,6 +39800,7 @@
       - biggR:
         - GLNTRAT
         - R_GLNTRAT
+      - ec-code: EC-6.3.5.7
       - metanetx.reaction: MNXR145055
       - sbo: SBO:0000176
   - !!omap
@@ -39655,6 +39825,7 @@
         - GLU5Km
         - R_GLU5K
         - R_GLU5Km
+      - ec-code: EC-2.7.2.11
       - kegg.reaction: R00239
       - keggR: R00239
       - metacyc.reaction: GLUTKIN-RXN
@@ -39749,6 +39920,7 @@
     - gene_reaction_rule: ANME2D_RS16010
     - annotation: !!omap
       - bigg.reaction: GLUDx
+      - ec-code: EC-1.4.1.2
       - sbo: SBO:0000176
   - !!omap
     - id: GLUDy
@@ -39783,6 +39955,7 @@
         - R_GLUDy
         - R_GLUDy_1
         - R_GLUDym
+      - ec-code: EC-1.4.1.4
       - kegg.reaction: R00248
       - keggR: R00248
       - metacyc.reaction:
@@ -39841,6 +40014,7 @@
         - PRDPARh
         - R_GLUPRT
         - R_PRDPARh
+      - ec-code: EC-2.4.2.14
       - kegg.reaction: R01072
       - keggR: R01072
       - metacyc.reaction: PRPPAMIDOTRANS-RXN
@@ -39913,6 +40087,7 @@
         - GLUSy
         - R_GLUS_nadph
         - R_GLUSy
+      - ec-code: EC-1.4.1.13
       - kegg.reaction: R00114
       - keggR: R00114
       - metacyc.reaction: GLUTAMATESYN-RXN
@@ -39963,6 +40138,7 @@
         - GLUTRR_1
         - R_GLUTRR
         - R_GLUTRR_1
+      - ec-code: EC-1.2.1.70
       - metanetx.reaction: MNXR145076
       - sbo: SBO:0000176
   - !!omap
@@ -40001,6 +40177,7 @@
         - R_GLUTRS_2
         - R_GLUTRS_3
         - R_GLUTRSm
+      - ec-code: EC-6.1.1.17
       - metanetx.reaction: MNXR145080
       - sbo: SBO:0000176
   - !!omap
@@ -40018,6 +40195,7 @@
     - gene_reaction_rule: ANME2D_RS05695
     - annotation: !!omap
       - bigg.reaction: GLUTRS_Gln_
+      - ec-code: EC-6.1.1.24
       - sbo: SBO:0000176
   - !!omap
     - id: GLUt2r
@@ -40149,6 +40327,7 @@
       - biggR:
         - GLXO1
         - R_GLXO1
+      - ec-code: EC-1.2.3.5
       - metanetx.reaction: MNXR100304
       - sbo: SBO:0000176
       - seed.reaction: rxn05734
@@ -40168,6 +40347,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: GLYALDOX
+      - ec-code: EC-1.2.7.5
       - sbo: SBO:0000176
   - !!omap
     - id: GLYATm
@@ -40195,6 +40375,7 @@
         - R_GLYAT
         - R_GLYATm
         - R_GLYATx
+      - ec-code: EC-2.3.1.29
       - kegg.reaction: R00371
       - keggR: R00371
       - metacyc.reaction: AKBLIG-RXN
@@ -40244,6 +40425,7 @@
       - biggR:
         - GLYCDx
         - R_GLYCDx
+      - ec-code: EC-1.1.1.6
       - kegg.reaction: R01034
       - keggR: R01034
       - metacyc.reaction: GLYCDEH-RXN
@@ -40358,6 +40540,7 @@
         - R_GLYTLm
         - R_GLYTRS
         - R_GLYTRS_1
+      - ec-code: EC-6.1.1.14
       - metanetx.reaction: MNXR145096
       - sbo: SBO:0000176
   - !!omap
@@ -40391,6 +40574,7 @@
       - biggR:
         - GMAND
         - R_GMAND
+      - ec-code: EC-4.2.1.47
       - kegg.reaction: R00888
       - keggR: R00888
       - metacyc.reaction: GDPMANDEHYDRA-RXN
@@ -40442,6 +40626,7 @@
         - GMPSm
         - R_GMPS
         - R_GMPSm
+      - ec-code: EC-6.3.5.2
       - kegg.reaction: R01230
       - keggR: R01230
       - metacyc.reaction: GMP-SYN-NH3-RXN
@@ -40497,6 +40682,7 @@
         - GMPS_glu_m
         - R_GMPS2
         - R_GMPS_glu_m
+      - ec-code: EC-6.3.5.2
       - kegg.reaction: R01231
       - keggR: R01231
       - metacyc.reaction: GMP-SYN-GLUT-RXN
@@ -40555,6 +40741,7 @@
         - R_FPPSh
         - R_GRTT
         - R_GRTTx
+      - ec-code: EC-2.5.1.10
       - kegg.reaction: R02003
       - keggR: R02003
       - metacyc.reaction: FPPSYN-RXN
@@ -40687,6 +40874,7 @@
         - R_GDR_nadp_h
         - R_GTHOm
         - R_GTHOr
+      - ec-code: EC-1.8.1.7
       - kegg.reaction: R00115
       - keggR: R00115
       - metacyc.reaction: GLUTATHIONE-REDUCT-NADPH-RXN
@@ -40729,6 +40917,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: GTPCHIII
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: GTPCHIV
@@ -40744,6 +40933,7 @@
     - gene_reaction_rule: ANME2D_RS06390
     - annotation: !!omap
       - bigg.reaction: GTPCHIV
+      - ec-code: EC-3.5.4.39
       - sbo: SBO:0000176
   - !!omap
     - id: GTPHs
@@ -40793,6 +40983,7 @@
         - R_GUAC
         - R_GUACYC
         - R_GUACn
+      - ec-code: EC-4.6.1.1
       - kegg.reaction: R00434
       - keggR: R00434
       - metacyc.reaction: GUANYLCYC-RXN
@@ -40840,6 +41031,7 @@
         - GUAD_1
         - R_GUAD
         - R_GUAD_1
+      - ec-code: EC-3.5.4.3
       - kegg.reaction: R01676
       - keggR: R01676
       - metacyc.reaction: GUANINE-DEAMINASE-RXN
@@ -40896,6 +41088,7 @@
         - GUAPRT
         - R_GPAR
         - R_GUAPRT
+      - ec-code: EC-2.4.2.22
       - kegg.reaction: R01229
       - keggR: R01229
       - metacyc.reaction: GUANPRIBOSYLTRAN-RXN
@@ -41520,6 +41713,7 @@
         - R_HCO3Ehi
         - R_HCO3Em
         - R_HCO3En
+      - ec-code: EC-4.2.1.1
       - kegg.reaction:
         - R00132
         - R10092
@@ -41599,6 +41793,7 @@
         - R_HDH
         - R_HDHh
         - R_HISTD
+      - ec-code: EC-1.1.1.35
       - kegg.reaction: R01158
       - keggR: R01158
       - metacyc.reaction: RXN-8001
@@ -41647,6 +41842,7 @@
       - biggR:
         - HDR
         - R_HDR
+      - ec-code: EC-1.8.98.1
       - metanetx.reaction: MNXR145179
       - sbo: SBO:0000176
   - !!omap
@@ -41691,6 +41887,7 @@
         - HETZK_1
         - R_HETZK
         - R_HETZK_1
+      - ec-code: EC-2.7.1.50
       - kegg.reaction: R04448
       - keggR: R04448
       - metacyc.reaction: THIAZOLSYN3-RXN
@@ -41730,6 +41927,7 @@
       - biggR:
         - HISDr
         - R_HISDr
+      - ec-code: EC-4.3.1.3
       - metanetx.reaction: MNXR191119
       - sbo: SBO:0000176
   - !!omap
@@ -41760,6 +41958,7 @@
         - R_HDH
         - R_HDHh
         - R_HISTD
+      - ec-code: EC-1.1.1.23
       - kegg.reaction: R01158
       - keggR: R01158
       - metacyc.reaction: RXN-8001
@@ -41816,6 +42015,7 @@
         - R_HISTP_1
         - R_HP
         - R_HPh
+      - ec-code: EC-3.1.3.15
       - kegg.reaction: R03013
       - keggR: R03013
       - metacyc.reaction: HISTIDPHOS-RXN
@@ -41872,6 +42072,7 @@
         - R_HISTRS
         - R_HISTRS_1
         - R_HISTRSm
+      - ec-code: EC-6.1.1.21
       - metanetx.reaction: MNXR145210
       - sbo: SBO:0000176
   - !!omap
@@ -41945,6 +42146,7 @@
         - R_HMBS
         - R_HMBS_1
         - R_PPBNGD
+      - ec-code: EC-2.5.1.61
       - kegg.reaction: R00084
       - keggR: R00084
       - metacyc.reaction: OHMETHYLBILANESYN-RXN
@@ -41990,6 +42192,7 @@
     - gene_reaction_rule: ANME2D_RS08605
     - annotation: !!omap
       - bigg.reaction: HMGCOARi
+      - ec-code: EC-1.1.1.34
       - sbo: SBO:0000176
   - !!omap
     - id: HMGCOASi
@@ -42006,6 +42209,7 @@
     - gene_reaction_rule: ANME2D_RS07475
     - annotation: !!omap
       - bigg.reaction: HMGCOASi
+      - ec-code: EC-2.3.3.10
       - sbo: SBO:0000176
   - !!omap
     - id: HMPK1
@@ -42034,6 +42238,7 @@
         - R_HMPK1
         - R_HMPK1_1
         - R_HMPK_h
+      - ec-code: EC-2.7.1.49
       - kegg.reaction: R03471
       - keggR: R03471
       - metacyc.reaction: OHMETPYRKIN-RXN
@@ -42125,6 +42330,7 @@
         - R_HPPK2_1
         - R_HPPK_1
         - R_HPPKm
+      - ec-code: EC-2.7.6.3
       - kegg.reaction: R03503
       - keggR: R03503
       - metacyc.reaction: H2PTERIDINEPYROPHOSPHOKIN-RXN
@@ -42323,6 +42529,7 @@
         - HSDy
         - R_HSDH
         - R_HSDy
+      - ec-code: EC-1.1.1.3
       - kegg.reaction: R01775
       - keggR: R01775
       - metanetx.reaction: MNXR100734
@@ -42367,6 +42574,7 @@
         - HSERTA
         - R_HSAT_m
         - R_HSERTA
+      - ec-code: EC-2.3.1.31
       - metanetx.reaction: MNXR145260
       - sbo: SBO:0000176
   - !!omap
@@ -42396,6 +42604,7 @@
         - R_HSK
         - R_HSK_1
         - R_HSK_2
+      - ec-code: EC-2.7.1.39
       - kegg.reaction: R01771
       - keggR: R01771
       - metacyc.reaction: HOMOSERKIN-RXN
@@ -42443,6 +42652,7 @@
       - biggR:
         - HSPMS
         - R_HSPMS
+      - ec-code: EC-2.5.1.44
       - kegg.reaction: R00018
       - keggR: R00018
       - metacyc.reaction: 2.5.1.44-RXN
@@ -42491,6 +42701,7 @@
         - R_AOOAh
         - R_HSTPT
         - R_HSTPTr
+      - ec-code: EC-2.6.1.9
       - kegg.reaction: R03243
       - keggR: R03243
       - metacyc.reaction: HISTAMINOTRANS-RXN
@@ -42533,6 +42744,7 @@
     - gene_reaction_rule: ANME2D_RS03720 or ANME2D_RS06690
     - annotation: !!omap
       - bigg.reaction: ICITDH
+      - ec-code: EC-1.1.1.41
       - sbo: SBO:0000176
   - !!omap
     - id: IG3PS
@@ -42562,6 +42774,7 @@
         - R_IG3PS
         - R_IG3PS_1
         - R_IMGPSh
+      - ec-code: EC-4.3.2.10
       - kegg.reaction: R04558
       - keggR: R04558
       - metacyc.reaction: GLUTAMIDOTRANS-RXN
@@ -42611,6 +42824,7 @@
         - R_IGPDH
         - R_IGPDH_1
         - R_IGPDh
+      - ec-code: EC-4.2.1.19
       - kegg.reaction: R03457
       - keggR: R03457
       - metacyc.reaction: IMIDPHOSDEHYD-RXN
@@ -42658,6 +42872,7 @@
         - IGPS_1
         - R_IGPS
         - R_IGPS_1
+      - ec-code: EC-4.1.1.48
       - kegg.reaction: R03508
       - keggR: R03508
       - metacyc.reaction: IGPSYN-RXN
@@ -42712,6 +42927,7 @@
         - R_ILETA
         - R_ILETA2
         - R_ILETAm
+      - ec-code: EC-2.6.1.42
       - kegg.reaction: R02199
       - keggR: R02199
       - metacyc.reaction: BRANCHED-CHAINAMINOTRANSFERILEU-RXN
@@ -42774,6 +42990,7 @@
         - R_ILETRS
         - R_ILETRS_1
         - R_ILETRSm
+      - ec-code: EC-6.1.1.5
       - metanetx.reaction: MNXR145292
       - sbo: SBO:0000176
   - !!omap
@@ -42843,6 +43060,7 @@
       - biggR:
         - IMPC
         - R_IMPC
+      - ec-code: EC-3.5.4.10
       - kegg.reaction: R01127
       - keggR: R01127
       - metacyc.reaction: IMPCYCLOHYDROLASE-RXN
@@ -42897,6 +43115,7 @@
         - R_IMPD
         - R_IMPDg
         - R_IMPDm
+      - ec-code: EC-1.1.1.205
       - kegg.reaction: R01130
       - keggR: R01130
       - metacyc.reaction: IMP-DEHYDROG-RXN
@@ -42964,6 +43183,7 @@
       - biggR:
         - INS2D
         - R_INS2D
+      - ec-code: EC-1.1.1.18
       - metanetx.reaction: MNXR189676
       - sbo: SBO:0000176
   - !!omap
@@ -42989,6 +43209,7 @@
         - INSKm
         - R_INSK
         - R_INSKm
+      - ec-code: EC-2.7.1.73
       - kegg.reaction: R01131
       - keggR: R01131
       - metacyc.reaction: INOSINEKIN-RXN
@@ -43112,6 +43333,7 @@
         - R_IDIh
         - R_IPDDI
         - R_IPDDIx
+      - ec-code: EC-5.3.3.2
       - kegg.reaction: R01123
       - keggR: R01123
       - metacyc.reaction: IPPISOM-RXN
@@ -43174,6 +43396,7 @@
         - IPMD
         - R_IMPDH_h
         - R_IPMD
+      - ec-code: EC-1.1.1.85
       - kegg.reaction: R04426
       - keggR: R04426
       - metacyc.reaction: 3-ISOPROPYLMALDEHYDROG-RXN
@@ -43211,6 +43434,7 @@
     - gene_reaction_rule: ANME2D_RS01175
     - annotation: !!omap
       - bigg.reaction: IPPK
+      - ec-code: EC-2.7.4.26
       - sbo: SBO:0000176
   - !!omap
     - id: IPPMIa
@@ -43233,6 +43457,7 @@
         - IPPMIa
         - R_IMPHL_2_h
         - R_IPPMIa
+      - ec-code: EC-4.2.1.33
       - kegg.reaction: R04001
       - keggR: R04001
       - metacyc.reaction: RXN-8991
@@ -43278,6 +43503,7 @@
         - IPPMIb
         - R_IMPHL_1_h
         - R_IPPMIb
+      - ec-code: EC-4.2.1.33
       - kegg.reaction: R03968
       - keggR: R03968
       - metacyc.reaction: 3-ISOPROPYLMALISOM-RXN
@@ -43330,6 +43556,7 @@
         - R_IPPS
         - R_IPPSh
         - R_IPPSm
+      - ec-code: EC-2.3.3.13
       - kegg.reaction: R01213
       - keggR: R01213
       - metacyc.reaction: 2-ISOPROPYLMALATESYN-RXN
@@ -43377,6 +43604,7 @@
         - IZPN_1
         - R_IZPN
         - R_IZPN_1
+      - ec-code: EC-3.5.2.7
       - kegg.reaction: R02288
       - keggR: R02288
       - metacyc.reaction: IMIDAZOLONEPROPIONASE-RXN
@@ -43422,6 +43650,7 @@
         - R_DMORh
         - R_KARA1
         - R_KARA1im
+      - ec-code: EC-1.1.1.86
       - kegg.reaction:
         - R03051
         - R04439
@@ -43621,6 +43850,7 @@
         - R_LEUTA
         - R_LEUTAi
         - R_LEUTAm
+      - ec-code: EC-2.6.1.42
       - metanetx.reaction: MNXR192685
       - sbo: SBO:0000176
   - !!omap
@@ -43655,6 +43885,7 @@
         - R_LEUTRS
         - R_LEUTRS_1
         - R_LEUTRSm
+      - ec-code: EC-6.1.1.4
       - metanetx.reaction: MNXR145429
       - sbo: SBO:0000176
   - !!omap
@@ -43709,6 +43940,7 @@
       - biggR:
         - LYSAM
         - R_LYSAM
+      - ec-code: EC-5.4.3.2
       - kegg.reaction: R00461
       - keggR: R00461
       - metacyc.reaction: LYSINE-23-AMINOMUTASE-RXN
@@ -43755,6 +43987,7 @@
         - R_LYSTRS
         - R_LYSTRS_1
         - R_LYSTRSm
+      - ec-code: EC-6.1.1.6
       - metanetx.reaction: MNXR145482
       - sbo: SBO:0000176
   - !!omap
@@ -43818,6 +44051,7 @@
       - biggR:
         - MAN1PT
         - R_MAN1PT
+      - ec-code: EC-2.7.7.13
       - kegg.reaction: R00885
       - keggR: R00885
       - metacyc.reaction: 2.7.7.13-RXN
@@ -43903,6 +44137,7 @@
       - biggR:
         - MAN6PI
         - R_MAN6PI
+      - ec-code: EC-5.3.1.8
       - kegg.reaction:
         - R00772
         - R01819
@@ -43955,6 +44190,7 @@
       - biggR:
         - MCR
         - R_MCR
+      - ec-code: EC-2.8.4.1
       - metanetx.reaction: MNXR145558
       - sbo: SBO:0000176
   - !!omap
@@ -43996,6 +44232,7 @@
         - R_MDHi2
         - R_MDHm
         - R_MDHp
+      - ec-code: EC-1.1.1.37
       - kegg.reaction: R00342
       - keggR: R00342
       - metacyc.reaction: MALATE-DEH-RXN
@@ -44105,6 +44342,7 @@
         - METAT
         - R_MATm
         - R_METAT
+      - ec-code: EC-2.5.1.6
       - kegg.reaction: R00177
       - keggR: R00177
       - metacyc.reaction: S-ADENMETSYN-RXN
@@ -44148,6 +44386,7 @@
       - biggR:
         - METGL
         - R_METGL
+      - ec-code: EC-4.4.1.11
       - kegg.reaction: R00654
       - keggR: R00654
       - metacyc.reaction: METHIONINE-GAMMA-LYASE-RXN
@@ -44200,6 +44439,7 @@
         - R_METS
         - R_METS_1
         - R_METSm
+      - ec-code: EC-2.1.1.13
       - kegg.reaction: R00946
       - keggR: R00946
       - metanetx.reaction: MNXR145582
@@ -44254,6 +44494,7 @@
         - R_METTRS
         - R_METTRS_1
         - R_METTRSm
+      - ec-code: EC-6.1.1.10
       - metanetx.reaction: MNXR145597
       - sbo: SBO:0000176
   - !!omap
@@ -44283,6 +44524,7 @@
         - R_MEVK1
         - R_MEVK1_1
         - R_MEVK1x
+      - ec-code: EC-2.7.1.36
       - kegg.reaction: R02245
       - keggR: R02245
       - metacyc.reaction: MEVALONATE-KINASE-RXN
@@ -44531,6 +44773,7 @@
         - MGSA2c
         - R_MGSA2
         - R_MGSA2c
+      - ec-code: EC-4.2.3.3
       - metanetx.reaction: MNXR101552
       - sbo: SBO:0000176
   - !!omap
@@ -44621,6 +44864,7 @@
         - R_MHPGLUT
         - R_MS
         - R_MS_1
+      - ec-code: EC-2.1.1.14
       - kegg.reaction: R04405
       - keggR: R04405
       - metacyc.reaction: HOMOCYSMET-RXN
@@ -44666,6 +44910,7 @@
       - biggR:
         - MHPGLUT2
         - R_MHPGLUT2
+      - ec-code: EC-Undetermined
       - metanetx.reaction: MNXR136766
       - sbo: SBO:0000176
       - seed.reaction: rxn11944
@@ -44704,6 +44949,7 @@
         - R_MI3PP_2
         - R_MI3PP_h
         - R_MI3PP_m
+      - ec-code: EC-3.1.3.25
       - metanetx.reaction: MNXR145608
       - sbo: SBO:0000176
   - !!omap
@@ -44722,6 +44968,7 @@
       - biggR:
         - MI3PS
         - R_MI3PS
+      - ec-code: EC-5.5.1.4
       - metanetx.reaction: MNXR145613
       - sbo: SBO:0000176
   - !!omap
@@ -44834,6 +45081,7 @@
         - MTMOHT
         - R_MOHMT
         - R_MTMOHT
+      - ec-code: EC-2.1.2.11
       - kegg.reaction: R01226
       - keggR: R01226
       - metanetx.reaction: MNXR188445
@@ -44876,6 +45124,7 @@
       - biggR:
         - MTAP
         - R_MTAP
+      - ec-code: EC-2.4.2.28
       - kegg.reaction: R01402
       - keggR: R01402
       - metacyc.reaction: 5-METHYLTHIOADENOSINE-PHOSPHORYLASE-RXN
@@ -44929,6 +45178,7 @@
         - R_MTHFCm
         - R_MTHFCm_1
         - R_MTHFCx
+      - ec-code: EC-3.5.4.9
       - kegg.reaction: R01655
       - keggR: R01655
       - metanetx.reaction: MNXR188454
@@ -44982,6 +45232,7 @@
         - R_MTHFD2
         - R_MTHFD2i
         - R_MTHFD2m
+      - ec-code: EC-1.5.1.5
       - kegg.reaction: R01218
       - keggR: R01218
       - metanetx.reaction: MNXR188458
@@ -45031,6 +45282,7 @@
         - R_MTHFO
         - R_MTHFR2
         - R_MTHFR2_1
+      - ec-code: EC-1.5.1.20
       - kegg.reaction: R07168
       - keggR: R07168
       - metanetx.reaction: MNXR145716
@@ -45082,6 +45334,7 @@
         - R_MTHFO_nadp
         - R_MTHFR3
         - R_MTHFR3_1
+      - ec-code: EC-1.5.1.20
       - kegg.reaction: R01224
       - keggR: R01224
       - metanetx.reaction: MNXR145718
@@ -45125,6 +45378,7 @@
         or ANME2D_RS04145 )
     - annotation: !!omap
       - bigg.reaction: MTR
+      - ec-code: EC-2.1.1.86
       - sbo: SBO:0000185
   - !!omap
     - id: MTRI
@@ -45142,6 +45396,7 @@
       - biggR:
         - MTRI
         - R_MTRI
+      - ec-code: EC-5.3.1.23
       - kegg.reaction: R04420
       - keggR: R04420
       - metacyc.reaction: 5.3.1.23-RXN
@@ -45178,6 +45433,7 @@
       - biggR:
         - MTSPC
         - R_MTSPC
+      - ec-code: EC-3.5.4.27
       - kegg.reaction: R03464
       - keggR: R03464
       - metacyc.reaction: 3.5.4.27-RXN
@@ -45277,6 +45533,7 @@
         - R_NADDPp
         - R_NADDPp_1
         - R_NPH
+      - ec-code: EC-3.6.1.9
       - kegg.reaction: R00103
       - keggR: R00103
       - metacyc.reaction: NADPYROPHOSPHAT-RXN
@@ -45338,6 +45595,7 @@
         - R_NADK_1
         - R_NADK_h
         - R_NADKm
+      - ec-code: EC-2.7.1.23
       - kegg.reaction: R00104
       - keggR: R00104
       - metacyc.reaction: NAD-KIN-RXN
@@ -45399,6 +45657,7 @@
         - R_NADS1_1
         - R_NADS1m
         - R_NADS1n
+      - ec-code: EC-6.3.1.5
       - kegg.reaction: R00189
       - keggR: R00189
       - metacyc.reaction: NAD-SYNTH-NH3-RXN
@@ -45456,6 +45715,7 @@
         - NADS2
         - R_DNGALh
         - R_NADS2
+      - ec-code: EC-6.3.5.1
       - kegg.reaction: R00257
       - keggR: R00257
       - metacyc.reaction: NAD-SYNTH-GLN-RXN
@@ -45492,6 +45752,7 @@
     - gene_reaction_rule: ANME2D_RS15590
     - annotation: !!omap
       - bigg.reaction: NAPRTr
+      - ec-code: EC-6.3.4.21
       - sbo: SBO:0000176
   - !!omap
     - id: NAR
@@ -45508,6 +45769,7 @@
     - gene_reaction_rule: ( ANME2D_RS13350 or ANME2D_RS16480 ) and ANME2D_RS16485
     - annotation: !!omap
       - bigg.reaction: NAR
+      - ec-code: EC-1.9.6.1
       - sbo: SBO:0000185
   - !!omap
     - id: NAt3_1
@@ -45620,6 +45882,7 @@
         - R_NDPK1
         - R_NDPK1m
         - R_NDPK1n
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R00330
       - keggR: R00330
       - metacyc.reaction: GDPKIN-RXN
@@ -45684,6 +45947,7 @@
         - R_NDPK10m
         - R_NDPK10n
         - R_NDPKn10
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R03530
       - keggR: R03530
       - metacyc.reaction: RXN-14228
@@ -45728,6 +45992,7 @@
         - R_NDPK2
         - R_NDPK2m
         - R_NDPK2n
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R00156
       - keggR: R00156
       - metacyc.reaction: UDPKIN-RXN
@@ -45784,6 +46049,7 @@
         - R_NDPK3
         - R_NDPK3m
         - R_NDPK3n
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R00570
       - keggR: R00570
       - metacyc.reaction: CDPKIN-RXN
@@ -45838,6 +46104,7 @@
         - R_NDPK4
         - R_NDPK4m
         - R_NDPK4n
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R02093
       - keggR: R02093
       - metacyc.reaction: DTDPKIN-RXN
@@ -45898,6 +46165,7 @@
         - R_NDPK5
         - R_NDPK5m
         - R_NDPK5n
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R01857
       - keggR: R01857
       - metacyc.reaction: DGDPKIN-RXN
@@ -45954,6 +46222,7 @@
         - R_NDPK6
         - R_NDPK6m
         - R_NDPK6n
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R02331
       - keggR: R02331
       - metacyc.reaction: DUDPKIN-RXN
@@ -46010,6 +46279,7 @@
         - R_NDPK7
         - R_NDPK7m
         - R_NDPK7n
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R02326
       - keggR: R02326
       - metacyc.reaction: DCDPKIN-RXN
@@ -46066,6 +46336,7 @@
         - R_NDPK8
         - R_NDPK8m
         - R_NDPK8n
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R01137
       - keggR: R01137
       - metacyc.reaction: DADPKIN-RXN
@@ -46120,6 +46391,7 @@
         - R_NDPK9
         - R_NDPK9m
         - R_NDPK9n
+      - ec-code: EC-2.7.4.6
       - kegg.reaction: R00722
       - keggR: R00722
       - metacyc.reaction: RXN-14120
@@ -46268,6 +46540,7 @@
       - biggR:
         - NIT_n1p4
         - R_NIT_n1p4
+      - ec-code: EC-1.18.6.1
       - metanetx.reaction: MNXR145783
       - sbo: SBO:0000176
   - !!omap
@@ -46344,6 +46617,7 @@
         - R_NMNAT
         - R_NMNATm
         - R_NMNATn
+      - ec-code: EC-2.7.7.1
       - kegg.reaction: R00137
       - keggR: R00137
       - metacyc.reaction: 2.7.7.1-RXN
@@ -46402,6 +46676,7 @@
         - R_NMNHYD
         - R_NMNHYD_1
         - R_NMNR
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R02323
       - keggR: R02323
       - metacyc.reaction: RXN-5841
@@ -46447,6 +46722,7 @@
       - biggR:
         - NN5HBPRT
         - R_NN5HBPRT
+      - ec-code: EC-2.4.2.21
       - metanetx.reaction: MNXR191145
       - sbo: SBO:0000176
   - !!omap
@@ -46463,6 +46739,7 @@
     - gene_reaction_rule: ANME2D_RS05370
     - annotation: !!omap
       - bigg.reaction: NNAT
+      - ec-code: EC-2.7.7.18
       - sbo: SBO:0000176
   - !!omap
     - id: NNDPR
@@ -46488,6 +46765,7 @@
         - NNDPRm
         - R_NNDPR
         - R_NNDPRm
+      - ec-code: EC-2.4.2.19
       - kegg.reaction: R03348
       - keggR: R03348
       - metacyc.reaction: QUINOPRIBOTRANS-RXN
@@ -46561,6 +46839,7 @@
         - R_NTD1_1
         - R_NTD1m
         - R_NTD1pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R02102
       - keggR: R02102
       - metacyc.reaction: RXN-14143
@@ -46607,6 +46886,7 @@
         - NTD10pp
         - R_NTD10
         - R_NTD10pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R02719
       - keggR: R02719
       - metacyc.reaction: XMPXAN-RXN
@@ -46657,6 +46937,7 @@
         - NTD11pp
         - R_NTD11
         - R_NTD11pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R01126
       - keggR: R01126
       - metacyc.reaction: RXN-7607
@@ -46717,6 +46998,7 @@
         - R_NTD2l
         - R_NTD2m
         - R_NTD2pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R00963
       - keggR: R00963
       - metacyc.reaction: RXN-14025
@@ -46769,6 +47051,7 @@
         - R_NTD3
         - R_NTD3l
         - R_NTD3pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R01664
       - keggR: R01664
       - metacyc.reaction: RXN0-5292
@@ -46823,6 +47106,7 @@
         - R_NTD4e
         - R_NTD4l
         - R_NTD4pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R00511
       - keggR: R00511
       - metacyc.reaction: RXN-14026
@@ -46879,6 +47163,7 @@
         - R_NTD5l
         - R_NTD5m
         - R_NTD5pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R01569
       - keggR: R01569
       - metacyc.reaction: THYMIDYLATE-5-PHOSPHATASE-RXN
@@ -46929,6 +47214,7 @@
         - R_NTD6
         - R_NTD6l
         - R_NTD6pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R02088
       - keggR: R02088
       - metacyc.reaction: RXN-14161
@@ -46993,6 +47279,7 @@
         - R_NTD7pp
         - R_r0047
         - r0047
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R00183
       - keggR: R00183
       - metacyc.reaction: AMP-DEPHOSPHORYLATION-RXN
@@ -47051,6 +47338,7 @@
         - R_NTD8
         - R_NTD8l
         - R_NTD8pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R01968
       - keggR: R01968
       - metacyc.reaction: RXN-14142
@@ -47113,6 +47401,7 @@
         - R_NTD9e
         - R_NTD9l
         - R_NTD9pp
+      - ec-code: EC-3.1.3.5
       - kegg.reaction: R01227
       - keggR: R01227
       - metacyc.reaction: RXN-7609
@@ -47170,6 +47459,7 @@
         - R_ATPM_h
         - R_ATPPHm
         - R_NTP1
+      - ec-code: EC-3.6.1.15
       - kegg.reaction: R00086
       - keggR: R00086
       - metacyc.reaction: ATPASE-RXN
@@ -47229,6 +47519,7 @@
       - biggR:
         - NTP2
         - R_NTP2
+      - ec-code: EC-3.6.1.15
       - metacyc.reaction: RXN-14214
       - metacycR: RXN-14214
       - metanetx.reaction: MNXR102042
@@ -47290,6 +47581,7 @@
         - R_NTP3
         - R_NTP3e
         - R_NTP3pp
+      - ec-code: EC-3.6.1.15
       - kegg.reaction: R00335
       - keggR: R00335
       - metacyc.reaction: RXN0-5462
@@ -47349,6 +47641,7 @@
       - biggR:
         - NTP4
         - R_NTP4
+      - ec-code: EC-3.6.1.15
       - metacyc.reaction: RXN-14217
       - metacycR: RXN-14217
       - metanetx.reaction: MNXR102044
@@ -47406,6 +47699,7 @@
         - R_NTP5
         - R_r0149
         - r0149
+      - ec-code: EC-3.6.1.15
       - kegg.reaction: R00569
       - keggR: R00569
       - metacyc.reaction: RXN-12195
@@ -47459,6 +47753,7 @@
       - biggR:
         - NTP6
         - R_NTP6
+      - ec-code: EC-3.6.1.15
       - metacyc.reaction: RXN-14216
       - metacycR: RXN-14216
       - metanetx.reaction: MNXR102046
@@ -47516,6 +47811,7 @@
         - NTP7
         - R_NDP8ex
         - R_NTP7
+      - ec-code: EC-3.6.1.15
       - kegg.reaction: R00159
       - keggR: R00159
       - metacyc.reaction: RXN-12196
@@ -47571,6 +47867,7 @@
       - biggR:
         - NTP8
         - R_NTP8
+      - ec-code: EC-3.6.1.15
       - kegg.reaction: R02330
       - keggR: R02330
       - metacyc.reaction: RXN-14219
@@ -47630,6 +47927,7 @@
         - R_NTP9
         - R_r0497
         - r0497
+      - ec-code: EC-3.6.1.15
       - kegg.reaction: R02095
       - keggR: R02095
       - metacyc.reaction: THYMIDINE-TRIPHOSPHATASE-RXN
@@ -47687,6 +47985,7 @@
         - NTPP11_1
         - R_NTPP11
         - R_NTPP11_1
+      - ec-code: EC-3.6.1.19
       - kegg.reaction: R02720
       - keggR: R02720
       - metacyc.reaction: RXN0-1603
@@ -47731,6 +48030,7 @@
         - NTRIR2xm
         - R_NTRIR2x
         - R_NTRIR2xm
+      - ec-code: EC-1.7.1.1
       - kegg.reaction: R00787
       - keggR: R00787
       - metacyc.reaction: RXN-13854
@@ -47777,6 +48077,7 @@
         - NTRIR_h
         - R_NTRIR2y
         - R_NTRIR_h
+      - ec-code: EC-1.7.1.2
       - kegg.reaction: R00789
       - keggR: R00789
       - metanetx.reaction: MNXR102063
@@ -47908,6 +48209,7 @@
         - R_OCT
         - R_OCTh
         - R_OCTm
+      - ec-code: EC-2.1.3.3
       - kegg.reaction: R01398
       - keggR: R01398
       - metacyc.reaction:
@@ -47974,6 +48276,7 @@
         - OMCDCm
         - R_OMCDC
         - R_OMCDCm
+      - ec-code: non enzymatic
       - kegg.reaction: R01652
       - keggR: R01652
       - metacyc.reaction: RXN-7800
@@ -48016,6 +48319,7 @@
       - biggR:
         - OMPDC
         - R_OMPDC
+      - ec-code: EC-4.1.1.23
       - kegg.reaction: R00965
       - keggR: R00965
       - metacyc.reaction: OROTPDECARB-RXN
@@ -48063,6 +48367,7 @@
       - biggR:
         - OORr
         - R_OORr
+      - ec-code: EC-1.2.7.3
       - metanetx.reaction: MNXR188598
       - sbo: SBO:0000176
       - seed.reaction: rxn10585
@@ -48088,6 +48393,7 @@
       - biggR:
         - OPAH
         - R_OPAH
+      - ec-code: EC-3.5.2.9
       - kegg.reaction: R00251
       - keggR: R00251
       - metacyc.reaction: 5-OXOPROLINASE-ATP-HYDROLYSING-RXN
@@ -48141,6 +48447,7 @@
         - R_ORNCD
         - R_ORNCD_1
         - R_ORNCD_2
+      - ec-code: EC-4.3.1.12
       - kegg.reaction: R00671
       - keggR: R00671
       - metacyc.reaction: ORNITHINE-CYCLODEAMINASE-RXN
@@ -48191,6 +48498,7 @@
         - R_HMR_4422
         - R_ORDCh
         - R_ORNDC
+      - ec-code: EC-4.1.1.17
       - kegg.reaction: R00670
       - keggR: R00670
       - metacyc.reaction: ORNDECARBOX-RXN
@@ -48247,6 +48555,7 @@
         - R_ORNTAC
         - R_ORNTAC_1
         - R_ORNTACim
+      - ec-code: EC-2.3.1.35
       - kegg.reaction: R02282
       - keggR: R02282
       - metacyc.reaction: GLUTAMATE-N-ACETYLTRANSFERASE-RXN
@@ -48289,6 +48598,7 @@
       - biggR:
         - ORPT
         - R_ORPT
+      - ec-code: EC-2.4.2.10
       - kegg.reaction: R01870
       - keggR: R01870
       - metacyc.reaction: OROPRIBTRANS-RXN
@@ -48337,6 +48647,7 @@
         - OXADCm
         - R_OXADC
         - R_OXADCm
+      - ec-code: EC-4.1.1.2
       - kegg.reaction: R00522
       - keggR: R00522
       - metacyc.reaction: OXALATE-DECARBOXYLASE-RXN
@@ -48457,6 +48768,7 @@
         - R_P5CRxm
         - R_PRO1x
         - R_PRO1xm
+      - ec-code: EC-1.5.1.2
       - kegg.reaction: R01248
       - keggR: R01248
       - metanetx.reaction: MNXR102303
@@ -48509,6 +48821,7 @@
         - R_PACCOAL
         - R_PACCOALm
         - R_PACL
+      - ec-code: EC-6.2.1.30
       - kegg.reaction: R02539
       - keggR: R02539
       - metacyc.reaction: RXN-10819
@@ -48549,6 +48862,7 @@
       - biggR:
         - PACCOAL2
         - R_PACCOAL2
+      - ec-code: EC-6.2.1.30
       - metanetx.reaction: MNXR102316
       - sbo: SBO:0000176
   - !!omap
@@ -48571,6 +48885,7 @@
       - biggR:
         - PACCOAL3
         - R_PACCOAL3
+      - ec-code: EC-6.2.1.30
       - metanetx.reaction: MNXR145884
       - sbo: SBO:0000176
   - !!omap
@@ -48617,6 +48932,7 @@
         - PAPSR_h
         - R_PAPSR
         - R_PAPSR_h
+      - ec-code: EC-1.8.4.8
       - metanetx.reaction: MNXR145903
       - sbo: SBO:0000176
   - !!omap
@@ -48648,6 +48964,7 @@
         - R_PC
         - R_PCm
         - R_PYC_h
+      - ec-code: EC-6.4.1.1
       - kegg.reaction: R00344
       - keggR: R00344
       - metacyc.reaction: PYRUVATE-CARBOXYLASE-RXN
@@ -48716,6 +49033,7 @@
       - biggR:
         - PGAMT
         - R_PGAMT
+      - ec-code: EC-5.4.2.10
       - kegg.reaction: R02060
       - keggR: R02060
       - metacyc.reaction: 5.4.2.10-RXN
@@ -48769,6 +49087,7 @@
         - R_PGLYDH
         - R_SERA_m
         - SERA_m
+      - ec-code: EC-1.1.1.95
       - kegg.reaction: R01513
       - keggR: R01513
       - metacyc.reaction: PGLYCDEHYDROG-RXN
@@ -48821,6 +49140,7 @@
         - PGI_h
         - R_PGI
         - R_PGI_h
+      - ec-code: EC-5.3.1.9
       - kegg.reaction: R00771
       - keggR: R00771
       - metacyc.reaction: PGLUCISOM-RXN
@@ -48871,6 +49191,7 @@
         - R_PGKg
         - R_PGKh
         - R_PGKm
+      - ec-code: EC-2.7.2.3
       - kegg.reaction: R01512
       - keggR: R01512
       - metacyc.reaction: PHOSGLYPHOS-RXN
@@ -48945,6 +49266,7 @@
         - R_PGLYCP_1
         - R_PGLYCPh
         - R_PGLYCPx
+      - ec-code: EC-3.1.3.18
       - kegg.reaction: R01334
       - keggR: R01334
       - metacyc.reaction: GPH-RXN
@@ -49003,6 +49325,7 @@
         - R_PGM
         - R_PGMf
         - R_PGMm
+      - ec-code: EC-5.4.2.12
       - kegg.reaction: R01518
       - keggR: R01518
       - metacyc.reaction:
@@ -49057,6 +49380,7 @@
         - PGM_h
         - R_PGMT
         - R_PGM_h
+      - ec-code: EC-5.4.2.2
       - metanetx.reaction: MNXR192018
       - sabiork.reaction:
         - '12817'
@@ -49095,6 +49419,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: PHEMES
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: PHETRS
@@ -49128,6 +49453,7 @@
         - R_PHETRS
         - R_PHETRS_1
         - R_PHETRSm
+      - ec-code: EC-6.1.1.20
       - metanetx.reaction: MNXR145998
       - sbo: SBO:0000176
   - !!omap
@@ -49141,6 +49467,7 @@
     - gene_reaction_rule: ANME2D_RS05605
     - annotation: !!omap
       - bigg.reaction: PHI
+      - ec-code: EC-5.3.1.27
       - sbo: SBO:0000176
   - !!omap
     - id: PIabc
@@ -49284,6 +49611,7 @@
       - biggR:
         - PMANM
         - R_PMANM
+      - ec-code: EC-5.4.2.8
       - kegg.reaction: R01818
       - keggR: R01818
       - metacyc.reaction: PHOSMANMUT-RXN
@@ -49378,6 +49706,7 @@
         - PMPK_h
         - R_PMPK
         - R_PMPK_h
+      - ec-code: EC-2.7.4.7
       - kegg.reaction: R04509
       - keggR: R04509
       - metacyc.reaction: PYRIMSYN3-RXN
@@ -49415,6 +49744,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: PMVD
+      - ec-code: EC-4.1.1.99
       - sbo: SBO:0000176
   - !!omap
     - id: PNTOt2
@@ -49452,6 +49782,7 @@
     - gene_reaction_rule: ANME2D_RS13190
     - annotation: !!omap
       - bigg.reaction: POK
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: POR2
@@ -49475,6 +49806,7 @@
       - biggR:
         - POR2
         - R_POR2
+      - ec-code: EC-1.2.7.1
       - metanetx.reaction: MNXR188680
       - sbo: SBO:0000176
       - seed.reaction: rxn10588
@@ -49500,6 +49832,7 @@
       - biggR:
         - POR3
         - R_POR3
+      - ec-code: EC-1.2.7.1
       - metanetx.reaction: MNXR188682
       - sbo: SBO:0000176
       - seed.reaction: rxn10589
@@ -49554,6 +49887,7 @@
         - R_PPAn
         - R_r0009
         - r0009
+      - ec-code: EC-3.6.1.1
       - kegg.reaction: R00004
       - keggR: R00004
       - metacyc.reaction: INORGPYROPHOSPHAT-RXN
@@ -49710,6 +50044,7 @@
         - R_PPBNGS
         - R_PPBNGS_1
         - R_PPBNGS_h
+      - ec-code: EC-4.2.1.24
       - kegg.reaction: R00036
       - keggR: R00036
       - metacyc.reaction: PORPHOBILSYNTH-RXN
@@ -49754,6 +50089,7 @@
         - R_PPCDC
         - R_r0614
         - r0614
+      - ec-code: EC-4.1.1.36
       - kegg.reaction: R03269
       - keggR: R03269
       - metacyc.reaction: P-PANTOCYSDECARB-RXN
@@ -49792,6 +50128,7 @@
       - biggR:
         - PPK2
         - R_PPK2
+      - ec-code: EC-2.7.4.1
       - metanetx.reaction: MNXR103113
       - rhea:
         - '29423'
@@ -49835,6 +50172,7 @@
         - R_PPNCL2
         - R_PPNCL2_1
         - R_PPNCL_m
+      - ec-code: EC-6.3.2.5
       - kegg.reaction: R04231
       - keggR: R04231
       - metacyc.reaction: P-PANTOCYSLIG-RXN
@@ -49878,6 +50216,7 @@
         - PPOR_1
         - R_PPND
         - R_PPOR_1
+      - ec-code: EC-1.3.1.12
       - kegg.reaction: R01728
       - keggR: R01728
       - metacyc.reaction: PREPHENATEDEHYDROG-RXN
@@ -49923,6 +50262,7 @@
       - biggR:
         - PPNDH
         - R_PPNDH
+      - ec-code: EC-4.2.1.51
       - kegg.reaction: R01373
       - keggR: R01373
       - metacyc.reaction: PREPHENATEDEHYDRAT-RXN
@@ -49970,6 +50310,7 @@
       - biggR:
         - PPS
         - R_PPS
+      - ec-code: EC-2.7.9.2
       - kegg.reaction: R00199
       - keggR: R00199
       - metacyc.reaction: PEPSYNTH-RXN
@@ -50010,6 +50351,7 @@
     - gene_reaction_rule: ANME2D_RS13195
     - annotation: !!omap
       - bigg.reaction: PPTS
+      - ec-code: EC-2.7.1.33
       - sbo: SBO:0000176
   - !!omap
     - id: PRAGSr
@@ -50040,6 +50382,7 @@
         - R_PPRGL
         - R_PPRGLh
         - R_PRAGSr
+      - ec-code: EC-6.3.4.13
       - kegg.reaction: R04144
       - keggR: R04144
       - metacyc.reaction: GLYRIBONUCSYN-RXN
@@ -50094,6 +50437,7 @@
         - R_PRAIS_1
         - R_PRFGCL
         - R_PRFGCLh
+      - ec-code: EC-6.3.3.1
       - kegg.reaction: R04208
       - keggR: R04208
       - metacyc.reaction: AIRS-RXN
@@ -50138,6 +50482,7 @@
         - PRAIi
         - R_PRAI
         - R_PRAIi
+      - ec-code: EC-5.3.1.24
       - kegg.reaction: R03509
       - keggR: R03509
       - metacyc.reaction: PRAISOM-RXN
@@ -50187,6 +50532,7 @@
         - R_PRACHh
         - R_PRAMPC
         - R_PRAMPC_1
+      - ec-code: EC-3.5.4.19
       - metanetx.reaction: MNXR146118
       - sbo: SBO:0000176
   - !!omap
@@ -50205,6 +50551,7 @@
     - gene_reaction_rule: ANME2D_RS11350 or ANME2D_RS00720
     - annotation: !!omap
       - bigg.reaction: PRASCS
+      - ec-code: EC-6.3.2.6
       - sbo: SBO:0000176
   - !!omap
     - id: PRATPP
@@ -50233,6 +50580,7 @@
         - R_PRADPh
         - R_PRATPP
         - R_PRATPP_1
+      - ec-code: EC-3.6.1.31
       - metanetx.reaction: MNXR146120
       - sbo: SBO:0000176
   - !!omap
@@ -50248,6 +50596,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: PRE2DC
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: PRFGS
@@ -50280,6 +50629,7 @@
         - R_PRFGS
         - R_PRFGS_1
         - R_PRFGSh
+      - ec-code: EC-6.3.5.3
       - kegg.reaction: R04463
       - keggR: R04463
       - metacyc.reaction: FGAMSYN-RXN
@@ -50320,6 +50670,7 @@
     - gene_reaction_rule: ANME2D_RS10800
     - annotation: !!omap
       - bigg.reaction: PRMICIi
+      - ec-code: EC-5.3.1.16
       - sbo: SBO:0000176
   - !!omap
     - id: PROD3
@@ -50367,6 +50718,7 @@
         - PROTRS_1
         - R_PROTRS
         - R_PROTRS_1
+      - ec-code: EC-6.1.1.15
       - metanetx.reaction: MNXR146134
       - sbo: SBO:0000176
   - !!omap
@@ -50506,6 +50858,7 @@
         - R_PRPPS
         - R_PRPPSig
         - R_RPDPK
+      - ec-code: EC-2.7.6.1
       - kegg.reaction: R01049
       - keggR: R01049
       - metanetx.reaction: MNXR189826
@@ -50558,6 +50911,7 @@
         - R_PSCIT
         - R_PSCVT
         - R_PSCVT_1
+      - ec-code: EC-2.5.1.19
       - kegg.reaction: R03460
       - keggR: R03460
       - metacyc.reaction: 2.5.1.19-RXN
@@ -50608,6 +50962,7 @@
         - R_PSAT
         - R_PSAT_m
         - R_PSERT
+      - ec-code: EC-2.6.1.52
       - metanetx.reaction: MNXR191167
       - sbo: SBO:0000176
   - !!omap
@@ -50644,6 +50999,7 @@
         - R_PSP_L_1
         - R_PSP_Lpp
         - R_PSP_m
+      - ec-code: EC-3.1.3.3
       - metanetx.reaction: MNXR191173
       - sbo: SBO:0000176
   - !!omap
@@ -50677,6 +51033,7 @@
         - R_PTPATe
         - R_PTPATi
         - R_PTPATim
+      - ec-code: EC-2.7.7.3
       - kegg.reaction: R03035
       - keggR: R03035
       - metacyc.reaction: PANTEPADENYLYLTRAN-RXN
@@ -50721,6 +51078,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: PYRS-1
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: PYRS-2
@@ -50738,6 +51096,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: PYRS-2
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: PYRTRS
@@ -50754,6 +51113,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: PYRTRS
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: PYRt2
@@ -50848,6 +51208,7 @@
     - gene_reaction_rule: ANME2D_RS15460 or ANME2D_RS15465
     - annotation: !!omap
       - bigg.reaction: QFO
+      - ec-code: EC-7.1.1.8
       - sbo: SBO:0000176
   - !!omap
     - id: QULNS
@@ -50876,6 +51237,7 @@
         - R_QULNS
         - R_QULNS_1
         - R_QULNS_m
+      - ec-code: EC-2.5.1.72
       - kegg.reaction: R04292
       - keggR: R04292
       - metacyc.reaction: QUINOLINATE-SYNTHA-RXN
@@ -50913,6 +51275,7 @@
     - gene_reaction_rule: ANME2D_RS10250
     - annotation: !!omap
       - bigg.reaction: R00021
+      - ec-code: EC-1.4.7.1
       - sbo: SBO:0000176
   - !!omap
     - id: R00424
@@ -50927,6 +51290,7 @@
     - gene_reaction_rule: ANME2D_RS06390
     - annotation: !!omap
       - bigg.reaction: R00424
+      - ec-code: EC-3.5.4.16
       - sbo: SBO:0000176
   - !!omap
     - id: R00694
@@ -50941,6 +51305,7 @@
     - gene_reaction_rule: ANME2D_RS05600 or ANME2D_RS08380 or ANME2D_RS07885 or ANME2D_RS03200
     - annotation: !!omap
       - bigg.reaction: R00694
+      - ec-code: EC-2.6.1.1
       - sbo: SBO:0000176
   - !!omap
     - id: R00937
@@ -50956,6 +51321,7 @@
     - gene_reaction_rule: ANME2D_RS10120 or ANME2D_RS09740
     - annotation: !!omap
       - bigg.reaction: R00937
+      - ec-code: EC-1.5.1.3
       - sbo: SBO:0000176
   - !!omap
     - id: R01262+R03749
@@ -50970,6 +51336,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: R01262+R03749
+      - ec-code: EC-3.4.19.13
       - sbo: SBO:0000176
   - !!omap
     - id: R01268
@@ -50984,6 +51351,7 @@
     - gene_reaction_rule: ANME2D_RS05785
     - annotation: !!omap
       - bigg.reaction: R01268
+      - ec-code: EC-3.5.1.19
       - sbo: SBO:0000176
   - !!omap
     - id: R01869
@@ -50999,6 +51367,7 @@
     - gene_reaction_rule: ANME2D_RS05275 or ANME2D_RS05280
     - annotation: !!omap
       - bigg.reaction: R01869
+      - ec-code: EC-1.3.1.14
       - sbo: SBO:0000176
   - !!omap
     - id: R01975
@@ -51015,6 +51384,7 @@
         or ANME2D_RS09110
     - annotation: !!omap
       - bigg.reaction: R01975
+      - ec-code: EC-1.1.1.35
       - sbo: SBO:0000176
   - !!omap
     - id: R03276
@@ -51028,6 +51398,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: R03276
+      - ec-code: EC-5.1.2.3
       - sbo: SBO:0000176
   - !!omap
     - id: R03472
@@ -51046,6 +51417,7 @@
     - gene_reaction_rule: ANME2D_RS02820 or ANME2D_RS09725 or ANME2D_RS16430
     - annotation: !!omap
       - bigg.reaction: R03472
+      - ec-code: EC-4.1.99.17
       - sbo: SBO:0000176
   - !!omap
     - id: R03896
@@ -51059,6 +51431,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: R03896
+      - ec-code: EC-4.2.1.35
       - sbo: SBO:0000176
   - !!omap
     - id: R03898
@@ -51072,6 +51445,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: R03898
+      - ec-code: EC-4.2.1.35
       - sbo: SBO:0000176
   - !!omap
     - id: R05680
@@ -51087,6 +51461,7 @@
     - gene_reaction_rule: ANME2D_RS03295
     - annotation: !!omap
       - bigg.reaction: R05680
+      - ec-code: EC-1.1.1.261
       - sbo: SBO:0000176
   - !!omap
     - id: R08574
@@ -51102,6 +51477,7 @@
     - gene_reaction_rule: ANME2D_RS10575
     - annotation: !!omap
       - bigg.reaction: R08574
+      - ec-code: EC-2.7.1.161
       - sbo: SBO:0000176
   - !!omap
     - id: R10266
@@ -51115,6 +51491,7 @@
     - gene_reaction_rule: ANME2D_RS07560
     - annotation: !!omap
       - bigg.reaction: R10266
+      - ec-code: EC-4.2.1.135
       - sbo: SBO:0000176
   - !!omap
     - id: R10685
@@ -51133,6 +51510,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: R10685
+      - ec-code: EC-2.4.2.60
       - sbo: SBO:0000176
   - !!omap
     - id: R10711
@@ -51164,6 +51542,7 @@
     - gene_reaction_rule: ANME2D_RS12335
     - annotation: !!omap
       - bigg.reaction: R10712
+      - ec-code: EC-2.5.1.3
       - sbo: SBO:0000176
   - !!omap
     - id: R2MMALSYN
@@ -51180,6 +51559,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: R2MMALSYN
+      - ec-code: EC-2.3.1.182
       - sbo: SBO:0000176
   - !!omap
     - id: RBFSa
@@ -51212,6 +51592,7 @@
         - R_DMRLMS_h
         - R_RBFSa
         - R_RBFSa_1
+      - ec-code: EC-2.5.1.78
       - metanetx.reaction: MNXR192628
       - sbo: SBO:0000176
   - !!omap
@@ -51243,6 +51624,7 @@
         - R_RBFSb
         - R_RBFSb_1
         - R_RIBFS
+      - ec-code: EC-2.5.1.9
       - metanetx.reaction: MNXR192029
       - sbo: SBO:0000176
   - !!omap
@@ -51272,6 +51654,7 @@
         - R_RBPC
         - R_RBPC_1
         - R_RBPCh
+      - ec-code: EC-4.1.1.39
       - metanetx.reaction: MNXR191184
       - sbo: SBO:0000176
   - !!omap
@@ -51334,6 +51717,7 @@
       - biggR:
         - RH3CD
         - R_RH3CD
+      - ec-code: EC-4.2.1.114
       - kegg.reaction: R10395
       - keggR: R10395
       - metacyc.reaction: R216-RXN
@@ -51387,6 +51771,7 @@
         - RNDR1n
         - R_RNDR1
         - R_RNDR1n
+      - ec-code: EC-1.17.4.1
       - metanetx.reaction: MNXR146314
       - sbo: SBO:0000176
   - !!omap
@@ -51412,6 +51797,7 @@
         - RNDR2n
         - R_RNDR2
         - R_RNDR2n
+      - ec-code: EC-1.17.4.1
       - metanetx.reaction: MNXR146320
       - sbo: SBO:0000176
   - !!omap
@@ -51437,6 +51823,7 @@
         - RNDR3n
         - R_RNDR3
         - R_RNDR3n
+      - ec-code: EC-1.17.4.1
       - metanetx.reaction: MNXR146326
       - sbo: SBO:0000176
   - !!omap
@@ -51462,6 +51849,7 @@
         - RNDR4n
         - R_RNDR4
         - R_RNDR4n
+      - ec-code: EC-1.17.4.1
       - metanetx.reaction: MNXR146332
       - sbo: SBO:0000176
   - !!omap
@@ -51483,6 +51871,7 @@
       - biggR:
         - RNTR1
         - R_RNTR1
+      - ec-code: EC-1.17.4.2
       - metanetx.reaction: MNXR146338
       - sbo: SBO:0000176
   - !!omap
@@ -51504,6 +51893,7 @@
       - biggR:
         - RNTR2
         - R_RNTR2
+      - ec-code: EC-1.17.4.2
       - metanetx.reaction: MNXR146342
       - sbo: SBO:0000176
   - !!omap
@@ -51525,6 +51915,7 @@
       - biggR:
         - RNTR3
         - R_RNTR3
+      - ec-code: EC-1.17.4.2
       - metanetx.reaction: MNXR146346
       - sbo: SBO:0000176
   - !!omap
@@ -51550,6 +51941,7 @@
         - RNTR4
         - R_RE0456N
         - R_RNTR4
+      - ec-code: EC-1.17.4.2
       - metanetx.reaction: MNXR146350
       - sbo: SBO:0000176
   - !!omap
@@ -51580,6 +51972,7 @@
         - R_RPIh
         - R_r0249
         - r0249
+      - ec-code: EC-5.3.1.6
       - kegg.reaction: R01056
       - keggR: R01056
       - metanetx.reaction: MNXR189850
@@ -51613,6 +52006,7 @@
       - biggR:
         - RU5PS
         - R_RU5PS
+      - ec-code: EC-4.1.2.43
       - metanetx.reaction: MNXR104115
       - sbo: SBO:0000176
   - !!omap
@@ -51633,6 +52027,7 @@
       - biggR:
         - RZ5PP2
         - R_RZ5PP2
+      - ec-code: EC-3.1.3.73
       - metanetx.reaction: MNXR104117
       - sbo: SBO:0000176
       - seed.reaction: rxn10597
@@ -51659,6 +52054,7 @@
       - biggR:
         - R_SADT2
         - SADT2
+      - ec-code: EC-2.7.7.4
       - metanetx.reaction: MNXR189852
       - sbo: SBO:0000176
       - seed.reaction: rxn09240
@@ -51678,6 +52074,7 @@
     - gene_reaction_rule: ANME2D_RS03645 and ANME2D_RS03640
     - annotation: !!omap
       - bigg.reaction: SCS
+      - ec-code: EC-6.2.1.5
       - sbo: SBO:0000176
   - !!omap
     - id: SDH
@@ -51693,6 +52090,7 @@
         and ANME2D_RS10905 )
     - annotation: !!omap
       - bigg.reaction: SDH
+      - ec-code: EC-1.3.5.1
       - sbo: SBO:0000176
   - !!omap
     - id: SECS
@@ -51743,6 +52141,7 @@
         - SAT
         - SATm
         - SERAT
+      - ec-code: EC-2.3.1.30
       - kegg.reaction: R00586
       - keggR: R00586
       - metacyc.reaction: SERINE-O-ACETTRAN-RXN
@@ -51797,6 +52196,7 @@
         - SERTL_h
         - SERTRS
         - SERTRS_1
+      - ec-code: EC-6.1.1.11
       - metanetx.reaction: MNXR146416
       - sbo: SBO:0000176
   - !!omap
@@ -51821,6 +52221,7 @@
         - R_SPT_syn
         - SGAT
         - SPT_syn
+      - ec-code: EC-2.6.1.45
       - kegg.reaction: R00588
       - keggR: R00588
       - metacyc.reaction:
@@ -51898,6 +52299,7 @@
         - R_DSCLCOCH
         - R_SHCHCC
         - SHCHCC
+      - ec-code: EC-4.99.1.3
       - metanetx.reaction: MNXR153405
       - sbo: SBO:0000176
   - !!omap
@@ -51918,6 +52320,7 @@
       - biggR:
         - R_SHCHD2
         - SHCHD2
+      - ec-code: EC-1.3.1.76
       - kegg.reaction: R03947
       - keggR: R03947
       - metanetx.reaction: MNXR146427
@@ -51944,6 +52347,7 @@
         - R_SHCHF_1
         - SHCHF
         - SHCHF_1
+      - ec-code: EC-4.99.1.4
       - kegg.reaction: R02864
       - keggR: R02864
       - metacyc.reaction: SIROHEME-FERROCHELAT-RXN
@@ -51989,6 +52393,7 @@
         - R_SKDH
         - SHK3Dr
         - SKDH
+      - ec-code: EC-1.1.1.25
       - kegg.reaction: R02413
       - keggR: R02413
       - metacyc.reaction: SHIKIMATE-5-DEHYDROGENASE-RXN
@@ -52040,6 +52445,7 @@
         - SHKK
         - SHKK_1
         - SKK
+      - ec-code: EC-2.7.1.71
       - kegg.reaction: R02412
       - keggR: R02412
       - metacyc.reaction: SHIKIMATE-KINASE-RXN
@@ -52247,6 +52653,7 @@
         - SPODMn
         - SPODMpp
         - SPODMx
+      - ec-code: EC-1.15.1.1
       - kegg.reaction: R00275
       - keggR: R00275
       - metacyc.reaction: SUPEROX-DISMUT-RXN
@@ -52382,6 +52789,7 @@
     - gene_reaction_rule: ANME2D_RS14395
     - annotation: !!omap
       - bigg.reaction: SULR2
+      - ec-code: EC-Undetermined
       - sbo: SBO:0000176
   - !!omap
     - id: SULabc
@@ -52448,6 +52856,7 @@
       - biggR:
         - R_TDPDRE
         - TDPDRE
+      - ec-code: EC-5.1.3.13
       - kegg.reaction: R06514
       - keggR: R06514
       - metacyc.reaction: DTDPDEHYDRHAMEPIM-RXN
@@ -52491,6 +52900,7 @@
       - biggR:
         - R_TDPDRR
         - TDPDRR
+      - ec-code: EC-1.1.1.133
       - kegg.reaction: R02777
       - keggR: R02777
       - metacyc.reaction: DTDPDEHYRHAMREDUCT-RXN
@@ -52538,6 +52948,7 @@
       - biggR:
         - R_TDPGDH
         - TDPGDH
+      - ec-code: EC-4.2.1.46
       - kegg.reaction: R06513
       - keggR: R06513
       - metacyc.reaction: DTDPGLUCDEHYDRAT-RXN
@@ -52621,6 +53032,7 @@
         - THMP
         - THMPe
         - TMPPH_h
+      - ec-code: EC-3.1.3.1
       - kegg.reaction: R02135
       - keggR: R02135
       - metacyc.reaction: RXNQT-4191
@@ -52703,6 +53115,7 @@
         - R_R01465m
         - R_THRD
         - THRD
+      - ec-code: EC-1.1.1.103
       - kegg.reaction: R01465
       - keggR: R01465
       - metacyc.reaction: THREODEHYD-RXN
@@ -52748,6 +53161,7 @@
     - gene_reaction_rule: ANME2D_RS03940
     - annotation: !!omap
       - bigg.reaction: THRPD
+      - ec-code: EC-4.1.1.81
       - sbo: SBO:0000176
   - !!omap
     - id: THRPS
@@ -52763,6 +53177,7 @@
     - gene_reaction_rule: ''
     - annotation: !!omap
       - bigg.reaction: THRPS
+      - ec-code: EC-2.7.1.177
       - sbo: SBO:0000176
   - !!omap
     - id: THRS
@@ -52790,6 +53205,7 @@
         - THRS
         - THRS_1
         - THRS_2
+      - ec-code: EC-4.2.3.1
       - kegg.reaction: R01466
       - keggR: R01466
       - metacyc.reaction: THRESYN-RXN
@@ -52844,6 +53260,7 @@
         - THRTRS
         - THRTRS_1
         - THRTRSm
+      - ec-code: EC-6.1.1.3
       - metanetx.reaction: MNXR146545
       - sbo: SBO:0000176
   - !!omap
@@ -52931,6 +53348,7 @@
       - biggR:
         - R_TMDS
         - TMDS
+      - ec-code: EC-2.1.1.45
       - kegg.reaction: R02101
       - keggR: R02101
       - metanetx.reaction: MNXR188916
@@ -52974,6 +53392,7 @@
       - biggR:
         - R_TMK
         - TMK
+      - ec-code: EC-2.7.1.89
       - kegg.reaction: R02134
       - keggR: R02134
       - metacyc.reaction: THIKIN-RXN
@@ -53015,6 +53434,7 @@
         - R_AMPAH
         - R_TMN
         - TMN
+      - ec-code: EC-3.5.99.2
       - kegg.reaction: R02133
       - keggR: R02133
       - metacyc.reaction: THIAMINASE-RXN
@@ -53050,6 +53470,7 @@
     - gene_reaction_rule: ANME2D_RS08630
     - annotation: !!omap
       - bigg.reaction: TMPKr
+      - ec-code: EC-2.7.4.16
       - sbo: SBO:0000176
   - !!omap
     - id: TMPPP
@@ -53070,6 +53491,7 @@
       - biggR:
         - R_TMPPP
         - TMPPP
+      - ec-code: EC-2.5.1.3
       - kegg.reaction: R03223
       - keggR: R03223
       - metacyc.reaction: THI-P-SYN-RXN
@@ -53122,6 +53544,7 @@
         - TPI_m
         - TPIg
         - TPIh
+      - ec-code: EC-5.3.1.1
       - metanetx.reaction: MNXR146573
       - sbo: SBO:0000176
   - !!omap
@@ -53151,6 +53574,7 @@
         - TDSRh
         - TRDR
         - TRDRm
+      - ec-code: EC-1.8.1.9
       - metanetx.reaction: MNXR146526
       - sbo: SBO:0000176
   - !!omap
@@ -53176,6 +53600,7 @@
         - R_TRPS1
         - SERH
         - TRPS1
+      - ec-code: EC-4.2.1.20
       - metanetx.reaction: MNXR146413
       - sabiork.reaction: '2612'
       - sabiorkR: '2612'
@@ -53202,6 +53627,7 @@
         - R_TRPS2h
         - TRPS2
         - TRPS2h
+      - ec-code: EC-4.2.1.20
       - kegg.reaction: R00674
       - keggR: R00674
       - metacyc.reaction: RXN0-2382
@@ -53249,6 +53675,7 @@
         - R_G3PL
         - R_TRPS3
         - TRPS3
+      - ec-code: EC-4.2.1.20
       - metanetx.reaction: MNXR151535
       - sbo: SBO:0000176
   - !!omap
@@ -53269,6 +53696,7 @@
       - biggR:
         - R_TRPTA
         - TRPTA
+      - ec-code: EC-2.6.1.1
       - kegg.reaction: R00684
       - keggR: R00684
       - metacyc.reaction: TRYPTOPHAN-AMINOTRANSFERASE-RXN
@@ -53325,6 +53753,7 @@
         - TRPTRS
         - TRPTRS_1
         - TRPTRSm
+      - ec-code: EC-6.1.1.2
       - metanetx.reaction: MNXR146601
       - sbo: SBO:0000176
   - !!omap
@@ -53399,6 +53828,7 @@
       - biggR:
         - R_TYRCBOX
         - TYRCBOX
+      - ec-code: EC-4.1.1.25
       - kegg.reaction: R00736
       - keggR: R00736
       - metacyc.reaction: TYROSINE-DECARBOXYLASE-RXN
@@ -53457,6 +53887,7 @@
         - TYRTAi
         - TYRTAim
         - TYRTAip
+      - ec-code: EC-2.6.1.1
       - kegg.reaction: R00734
       - keggR: R00734
       - metacyc.reaction: TYROSINE-AMINOTRANSFERASE-RXN
@@ -53515,6 +53946,7 @@
         - TYRTRS
         - TYRTRS_1
         - TYRTRSm
+      - ec-code: EC-6.1.1.1
       - metanetx.reaction: MNXR146615
       - sbo: SBO:0000176
   - !!omap
@@ -53549,6 +53981,7 @@
       - biggR:
         - R_UACMAMO
         - UACMAMO
+      - ec-code: EC-1.1.1.336
       - kegg.reaction: R03317
       - keggR: R03317
       - metacyc.reaction: UDPMANNACADEHYDROG-RXN
@@ -53593,6 +54026,7 @@
         - R_UAG2EMA_1
         - UAG2E
         - UAG2EMA_1
+      - ec-code: EC-5.1.3.14
       - kegg.reaction: R00420
       - keggR: R00420
       - metacyc.reaction: UDPGLCNACEPIM-RXN
@@ -53636,6 +54070,7 @@
         - R_r0113
         - UAG2EMA
         - r0113
+      - ec-code: EC-3.2.1.183
       - kegg.reaction: R00414
       - keggR: R00414
       - metanetx.reaction: MNXR189886
@@ -53662,6 +54097,7 @@
         - R_UAG4Ei
         - UAG4E
         - UAG4Ei
+      - ec-code: EC-5.1.3.7
       - kegg.reaction: R00418
       - keggR: R00418
       - metacyc.reaction: UDP-N-ACETYLGLUCOSAMINE-4-EPIMERASE-RXN
@@ -53708,6 +54144,7 @@
         - R_UAGCVT_1
         - UAGCVT
         - UAGCVT_1
+      - ec-code: EC-2.5.1.7
       - kegg.reaction: R00660
       - keggR: R00660
       - metacyc.reaction: UDPNACETYLGLUCOSAMENOLPYRTRANS-RXN
@@ -53751,6 +54188,7 @@
         - R_UAGDP_1
         - UAGDP
         - UAGDP_1
+      - ec-code: EC-2.7.7.23
       - kegg.reaction: R00416
       - keggR: R00416
       - metacyc.reaction: NAG1P-URIDYLTRANS-RXN
@@ -53794,6 +54232,7 @@
       - biggR:
         - R_UAPGR
         - UAPGR
+      - ec-code: EC-1.3.1.98
       - kegg.reaction: R03192
       - keggR: R03192
       - metacyc.reaction: UDPNACETYLMURAMATEDEHYDROG-RXN
@@ -53838,6 +54277,7 @@
         - R_UDPG4Ex
         - UDPG4E
         - UDPG4Ex
+      - ec-code: EC-5.1.3.2
       - kegg.reaction: R00291
       - keggR: R00291
       - metacyc.reaction: UDPGLUCEPIM-RXN
@@ -53899,6 +54339,7 @@
     - gene_reaction_rule: ANME2D_RS07155
     - annotation: !!omap
       - bigg.reaction: UDPGDr
+      - ec-code: EC-1.1.1.22
       - sbo: SBO:0000176
   - !!omap
     - id: UMPK
@@ -53926,6 +54367,7 @@
         - UMPK
         - UMPKm
         - UMPKn
+      - ec-code: EC-2.7.4.22
       - kegg.reaction: R00158
       - keggR: R00158
       - metacyc.reaction: RXN-12002
@@ -54027,6 +54469,7 @@
         - UPP3MT
         - UPP3MT_1
         - UPP3MT_3
+      - ec-code: EC-2.1.1.107
       - kegg.reaction: R03194
       - keggR: R03194
       - metanetx.reaction: MNXR189904
@@ -54052,6 +54495,7 @@
         - R_UPP3S_1
         - UPP3S
         - UPP3S_1
+      - ec-code: EC-4.2.1.75
       - kegg.reaction: R03165
       - keggR: R03165
       - metacyc.reaction: UROGENIIISYN-RXN
@@ -54097,6 +54541,7 @@
         - R_URCN_1
         - URCN
         - URCN_1
+      - ec-code: EC-4.2.1.49
       - metanetx.reaction: MNXR192047
       - sbo: SBO:0000176
   - !!omap
@@ -54181,6 +54626,7 @@
         - URIDK2m
         - URIDK2r
         - URIDK2rn
+      - ec-code: EC-2.7.4.9
       - kegg.reaction: R02098
       - keggR: R02098
       - metacyc.reaction: RXN-14122
@@ -54267,6 +54713,7 @@
         - R_VALTAim
         - VALTA
         - VALTAim
+      - ec-code: EC-2.6.1.42
       - kegg.reaction: R01214
       - keggR: R01214
       - metacyc.reaction: BRANCHED-CHAINAMINOTRANSFERVAL-RXN
@@ -54329,6 +54776,7 @@
         - VALTRS
         - VALTRS_1
         - VALTRSm
+      - ec-code: EC-6.1.1.9
       - metanetx.reaction: MNXR146736
       - sbo: SBO:0000176
   - !!omap
@@ -54393,6 +54841,7 @@
       - biggR:
         - R_XPPT
         - XPPT
+      - ec-code: EC-2.4.2.22
       - kegg.reaction: R02142
       - keggR: R02142
       - metacyc.reaction: XANPRIBOSYLTRAN-RXN
