@@ -1,0 +1,27 @@
+name: memote
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: "gh-pages"
+    # - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+    - name: Install dependencies
+      run: |
+        python -m pip install memote==0.13.0
+    - name: Run memote on deployment branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        HEAD_REF: ${{ github.ref }}
+      run: ./scripts/ghactions_deploy.sh
+

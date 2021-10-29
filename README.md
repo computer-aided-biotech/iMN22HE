@@ -1,4 +1,4 @@
-[![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://carrascomj.github.io/imeni452)
+[![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://computer-aided-biotech.github.io/imeni452)
 
 # imeni452
 
@@ -28,7 +28,7 @@ to do is:
 1. Create a [GitHub](https://github.com/) account.
 2. Create an account at https://travis-ci.org using your GitHub account.
 3. Run `memote online`.
-4. A history report will be publicly visible at https://carrascomj.github.io/imeni452.
+4. A history report will be publicly visible at https://computer-aided-biotech.github.io/imeni452.
 
 ---
 

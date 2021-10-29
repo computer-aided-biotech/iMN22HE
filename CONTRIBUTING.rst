@@ -15,7 +15,7 @@ Types of Contributions
 Report Problems
 ~~~~~~~~~~~~~~~
 
-Report problems with the metabolic model at https://github.com/carrascomj/imeni452/issues.
+Report problems with the metabolic model at https://github.com/computer-aided-biotech/imeni452/issues.
 
 If you are reporting a problem, please include:
 
@@ -45,7 +45,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/carrascomj/imeni452/issues.
+The best way to send feedback is to file an issue at https://github.com/computer-aided-biotech/imeni452/issues.
 
 If you are proposing a feature:
 
