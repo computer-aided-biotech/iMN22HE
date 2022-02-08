@@ -1,34 +1,42 @@
 [![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://computer-aided-biotech.github.io/imeni452)
 
-# imeni452
+# iMN22HE
 
-Congratulations! You successfully set up your genome-scale metabolic model
-repository.
+Genome scale-metabolic model of *Methanoperedens nitroreducens*, a
+methanotrophic archaeon capable of anaerobic oxidation of methane.
 
-## Next Steps
+This model is version-controlled under
+[`memote`](https://memote.readthedocs.io/en/latest/). A history report is
+publicly visible at https://computer-aided-biotech.github.io/iMN22HE.
 
-1. Update this README to your liking and to say something about the model that
-   you are working on.
-2. Take note of the [license](LICENSE) in case you want to change it. By 
-default we have added a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license to your repository.
-3. Check out the [memote documentation](http://memote.readthedocs.io/) online.
+|Taxonomy |Reference sequence| Reactions | Metabolites| Genes |
+|:-------:|:---------:|:---------:|:----------:|:-----:|
+|*Candidatus Methanoperedens nitroreducens*|[NZ\_JMIY01000000](https://www.ncbi.nlm.nih.gov/assembly/GCF_000685155.1/)|813|684|452|
 
-## Usage
+## Model reconstruction
+
+The draft iMN22HE was generated using KBase and ModelSEED from the genome
+sequence of *Candidatus Methanoperedens nitroreducens*
+([NZ\_JMIY01000000](https://www.ncbi.nlm.nih.gov/assembly/GCF_000685155.1/)).
+This was followed by manual curation based on the literature and biochemical
+information about ANME-2d and relative organisms. The reversibility of the
+reactions was generally determined from ΔG calculation.
+
+The jupyter notebooks at `./notebooks` are mainly about the annotation across
+different databases of the reactions, metabolites and genes in the model.
+
+## Generating memote reports
 
 All `memote` commands have extensive help descriptions.
 
 1. For simple command line testing, check out `memote run -h`.
-2. To generate a pretty report, check out `memote report snapshot -h`.
+2. To generate a pretty report of the current state of the model, check out `memote report snapshot -h`.
 
-## Testing the Model with Continuous Integration
+## Cite this model
 
-Currently, we can enable continuous model testing using Travis CI. All you have
-to do is:
+The model in the publication corresponds to the [release v1.0 at github](https://github.com/computer-aided-biotech/imeni452/releases/tag/1.0).
 
-1. Create a [GitHub](https://github.com/) account.
-2. Create an account at https://travis-ci.org using your GitHub account.
-3. Run `memote online`.
-4. A history report will be publicly visible at https://computer-aided-biotech.github.io/imeni452.
+> A link and the citation will be added here once available.
 
 ---
 
